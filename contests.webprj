@@ -1,0 +1,130 @@
+<!DOCTYPE webproject>
+<webproject>
+  <project name="contests" >
+    <upload/>
+    <templates>templates/</templates>
+    <toolbars>toolbars/</toolbars>
+    <item url="" uploadstatus="1" />
+    <item url="index.php" uploadstatus="1" />
+    <item desc="" url="config.inc.php" uploadstatus="1" />
+    <item url="includes/" uploadstatus="1" />
+    <item url="includes/DB/" uploadstatus="1" />
+    <item modified_time="1118861866" url="includes/DB/common.php" uploadstatus="1" />
+    <item modified_time="1118861866" url="includes/DB/dbase.php" uploadstatus="1" />
+    <item modified_time="1118861866" url="includes/DB/fbsql.php" uploadstatus="1" />
+    <item modified_time="1118861866" url="includes/DB/ibase.php" uploadstatus="1" />
+    <item modified_time="1118861866" url="includes/DB/ifx.php" uploadstatus="1" />
+    <item modified_time="1118861866" url="includes/DB/msql.php" uploadstatus="1" />
+    <item modified_time="1118861866" url="includes/DB/mssql.php" uploadstatus="1" />
+    <item modified_time="1118861866" url="includes/DB/mysql.php" uploadstatus="1" />
+    <item modified_time="1118861866" url="includes/DB/mysqli.php" uploadstatus="1" />
+    <item modified_time="1118861866" url="includes/DB/oci8.php" uploadstatus="1" />
+    <item modified_time="1118861866" url="includes/DB/odbc.php" uploadstatus="1" />
+    <item modified_time="1118861866" url="includes/DB/pgsql.php" uploadstatus="1" />
+    <item modified_time="1118861866" url="includes/DB/sqlite.php" uploadstatus="1" />
+    <item modified_time="1118861866" url="includes/DB/storage.php" uploadstatus="1" />
+    <item modified_time="1118861866" url="includes/DB/sybase.php" uploadstatus="1" />
+    <item url="includes/HTML/" uploadstatus="1" />
+    <item url="includes/HTML/QuickForm/" uploadstatus="1" />
+    <item url="includes/HTML/QuickForm/Renderer/" uploadstatus="1" />
+    <item modified_time="1118861866" url="includes/HTML/QuickForm/Renderer/Array.php" uploadstatus="1" />
+    <item modified_time="1118861866" url="includes/HTML/QuickForm/Renderer/ArraySmarty.php" uploadstatus="1" />
+    <item modified_time="1118861866" url="includes/HTML/QuickForm/Renderer/Default.php" uploadstatus="1" />
+    <item modified_time="1118861866" url="includes/HTML/QuickForm/Renderer/ITDynamic.php" uploadstatus="1" />
+    <item modified_time="1118861866" url="includes/HTML/QuickForm/Renderer/ITStatic.php" uploadstatus="1" />
+    <item modified_time="1118861866" url="includes/HTML/QuickForm/Renderer/Object.php" uploadstatus="1" />
+    <item modified_time="1118861866" url="includes/HTML/QuickForm/Renderer/ObjectFlexy.php" uploadstatus="1" />
+    <item modified_time="1118861866" url="includes/HTML/QuickForm/Renderer/QuickHtml.php" uploadstatus="1" />
+    <item url="includes/HTML/QuickForm/Rule/" uploadstatus="1" />
+    <item modified_time="1118861866" url="includes/HTML/QuickForm/Rule/Callback.php" uploadstatus="1" />
+    <item modified_time="1118861866" url="includes/HTML/QuickForm/Rule/Compare.php" uploadstatus="1" />
+    <item modified_time="1118861866" url="includes/HTML/QuickForm/Rule/Email.php" uploadstatus="1" />
+    <item modified_time="1118861866" url="includes/HTML/QuickForm/Rule/Range.php" uploadstatus="1" />
+    <item modified_time="1126364751" url="includes/HTML/QuickForm/Rule/Regex.php" uploadstatus="1" />
+    <item modified_time="1118861866" url="includes/HTML/QuickForm/Rule/Required.php" uploadstatus="1" />
+    <item modified_time="1118861866" url="includes/HTML/QuickForm/Renderer.php" uploadstatus="1" />
+    <item modified_time="1118861866" url="includes/HTML/QuickForm/Rule.php" uploadstatus="1" />
+    <item modified_time="1118861866" url="includes/HTML/QuickForm/RuleRegistry.php" uploadstatus="1" />
+    <item modified_time="1118861866" url="includes/HTML/QuickForm/advcheckbox.php" uploadstatus="1" />
+    <item modified_time="1118861866" url="includes/HTML/QuickForm/autocomplete.php" uploadstatus="1" />
+    <item modified_time="1118861866" url="includes/HTML/QuickForm/button.php" uploadstatus="1" />
+    <item modified_time="1118861866" url="includes/HTML/QuickForm/checkbox.php" uploadstatus="1" />
+    <item modified_time="1118861866" url="includes/HTML/QuickForm/date.php" uploadstatus="1" />
+    <item modified_time="1118861866" url="includes/HTML/QuickForm/element.php" uploadstatus="1" />
+    <item modified_time="1123256128" url="includes/HTML/QuickForm/file.php" uploadstatus="1" />
+    <item modified_time="1118861866" url="includes/HTML/QuickForm/group.php" uploadstatus="1" />
+    <item modified_time="1118861866" url="includes/HTML/QuickForm/header.php" uploadstatus="1" />
+    <item modified_time="1118861866" url="includes/HTML/QuickForm/hidden.php" uploadstatus="1" />
+    <item modified_time="1118861866" url="includes/HTML/QuickForm/hiddenselect.php" uploadstatus="1" />
+    <item modified_time="1118861866" url="includes/HTML/QuickForm/hierselect.php" uploadstatus="1" />
+    <item modified_time="1118861866" url="includes/HTML/QuickForm/html.php" uploadstatus="1" />
+    <item modified_time="1118861866" url="includes/HTML/QuickForm/image.php" uploadstatus="1" />
+    <item modified_time="1118861866" url="includes/HTML/QuickForm/input.php" uploadstatus="1" />
+    <item modified_time="1118861866" url="includes/HTML/QuickForm/link.php" uploadstatus="1" />
+    <item modified_time="1118861866" url="includes/HTML/QuickForm/password.php" uploadstatus="1" />
+    <item modified_time="1118861866" url="includes/HTML/QuickForm/radio.php" uploadstatus="1" />
+    <item modified_time="1118861866" url="includes/HTML/QuickForm/reset.php" uploadstatus="1" />
+    <item modified_time="1118861866" url="includes/HTML/QuickForm/select.php" uploadstatus="1" />
+    <item modified_time="1118861866" url="includes/HTML/QuickForm/static.php" uploadstatus="1" />
+    <item modified_time="1118861866" url="includes/HTML/QuickForm/submit.php" uploadstatus="1" />
+    <item modified_time="1118861866" url="includes/HTML/QuickForm/text.php" uploadstatus="1" />
+    <item modified_time="1118861866" url="includes/HTML/QuickForm/textarea.php" uploadstatus="1" />
+    <item modified_time="1118861866" url="includes/HTML/QuickForm/xbutton.php" uploadstatus="1" />
+    <item modified_time="1118861866" url="includes/HTML/Common.php" uploadstatus="1" />
+    <item modified_time="1118861866" url="includes/HTML/QuickForm.php" uploadstatus="1" />
+    <item modified_time="1118861866" url="includes/HTML/Table.php" uploadstatus="1" />
+    <item url="includes/Text/" uploadstatus="1" />
+    <item modified_time="1118861866" url="includes/Text/Password.php" uploadstatus="1" />
+    <item modified_time="1118861866" url="includes/DB.php" uploadstatus="1" />
+    <item modified_time="1126316907" url="includes/auth.php" uploadstatus="1" />
+    <item modified_time="1136353534" url="includes/html.php" uploadstatus="1" />
+    <item modified_time="1138174333" url="includes/lib.php" uploadstatus="1" />
+    <item modified_time="1126316927" url="includes/nav.php" uploadstatus="1" />
+    <item modified_time="1137512891" url="includes/problem.php" uploadstatus="1" />
+    <item modified_time="1138193343" url="includes/sql.php" uploadstatus="1" />
+    <item modified_time="1138183841" url="includes/view.php" uploadstatus="1" />
+    <item url="templates/" uploadstatus="1" />
+    <item url="themes/" uploadstatus="1" />
+    <item url="themes/default.css" uploadstatus="1" />
+    <item url="toolbars/" uploadstatus="1" />
+    <item url="views/" uploadstatus="1" />
+    <item url="views/admin.php" uploadstatus="1" />
+    <item url="views/explorer.php" uploadstatus="1" />
+    <item url="views/login.php" uploadstatus="1" />
+    <item url=".project" uploadstatus="1" />
+    <item url="contests.webprj" uploadstatus="1" />
+    <item modified_time="1138187282" url="includes/tester.php" uploadstatus="1" />
+    <item url="views/manage.php" uploadstatus="1" />
+    <item modified_time="1137424418" url="includes/system.php" uploadstatus="1" />
+    <item modified_time="1136970772" url="includes/submit.php" uploadstatus="1" />
+    <item url="languages/" uploadstatus="1" />
+    <item url="languages/c.php" uploadstatus="1" />
+    <item url="languages/cpp.php" uploadstatus="1" />
+    <item modified_time="1138193243" url="includes/score.php" uploadstatus="1" />
+    <item url="themes/default-ie.css" uploadstatus="1" />
+    <item url="scripts/" uploadstatus="1" />
+    <item url="scripts/editor.js" uploadstatus="1" />
+    <item url="scripts/timer.js" uploadstatus="1" />
+    <item url="scripts/global.js" uploadstatus="1" />
+    <item url="progress.php" uploadstatus="1" />
+    <treestatus>
+      <openfolder url="includes" />
+      <openfolder url="includes/Text" />
+      <openfolder url="languages" />
+      <openfolder url="scripts" />
+      <openfolder url="themes" />
+      <openfolder url="views" />
+    </treestatus>
+    <annotations/>
+    <item url="languages/java.php.old" uploadstatus="1" />
+    <item url="languages/java.php" uploadstatus="1" />
+    <item url="languages/python.php.old" uploadstatus="1" />
+    <item desc="" url="draft.php" uploadstatus="1" />
+    <item url="solution.php" uploadstatus="1" />
+    <item url="problem-version.php" uploadstatus="1" />
+    <item url="views/statistics.php" uploadstatus="1" />
+    <item url="README.txt" uploadstatus="1" />
+    <item url="LICENSE.txt" uploadstatus="1" />
+    <item url="views/bulletin.php" uploadstatus="1" />
+  </project>
+</webproject>

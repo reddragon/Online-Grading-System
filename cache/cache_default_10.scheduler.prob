@@ -1,0 +1,85 @@
+                      1002181111O:7:"problem":9:{s:5:"tests";a:10:{i:1;O:8:"testcase":7:{s:5:"input";s:18:"4
+5 5
+4 4
+3 6
+2 5
+";s:6:"output";s:50:"PrID Prty
+   4    4
+   5    5
+   2    5
+   3    6
+";s:5:"imode";s:1:"0";s:5:"omode";s:1:"0";s:10:"time_limit";N;s:9:"mem_limit";N;s:6:"points";N;}i:2;O:8:"testcase":7:{s:5:"input";s:19:"
+4
+1 0
+0 0
+2 0
+3 0
+";s:6:"output";s:50:"PrID Prty
+   1    0
+   0    0
+   2    0
+   3    0
+";s:5:"imode";s:1:"0";s:5:"omode";s:1:"0";s:10:"time_limit";N;s:9:"mem_limit";N;s:6:"points";N;}i:3;O:8:"testcase":7:{s:5:"input";s:65:"
+10
+2 100
+3 4
+10 9999
+9 9998
+8 1
+1 100
+4 1024
+20 2048
+21 1
+16 16
+";s:6:"output";s:110:"PrID Prty
+   8    1
+  21    1
+   3    4
+  16   16
+   2  100
+   1  100
+   4 1024
+  20 2048
+   9 9998
+  10 9999
+";s:5:"imode";s:1:"0";s:5:"omode";s:1:"0";s:10:"time_limit";N;s:9:"mem_limit";N;s:6:"points";N;}i:4;O:8:"testcase":7:{s:5:"input";s:7:"
+1
+0 0
+";s:6:"output";s:20:"PrID Prty
+   0    0
+";s:5:"imode";s:1:"0";s:5:"omode";s:1:"0";s:10:"time_limit";N;s:9:"mem_limit";N;s:6:"points";N;}i:5;O:8:"testcase":7:{s:5:"input";s:10:"
+1
+1 9999
+";s:6:"output";s:20:"PrID Prty
+   1 9999
+";s:5:"imode";s:1:"0";s:5:"omode";s:1:"0";s:10:"time_limit";N;s:9:"mem_limit";N;s:6:"points";N;}i:6;O:8:"testcase":7:{s:5:"input";s:53:"
+5
+9999 9999
+1000 9999
+5000 1000
+9998 9999
+9997 9999
+";s:6:"output";s:60:"PrID Prty
+5000 1000
+9999 9999
+1000 9999
+9998 9999
+9997 9999
+";s:5:"imode";s:1:"0";s:5:"omode";s:1:"0";s:10:"time_limit";N;s:9:"mem_limit";N;s:6:"points";N;}i:7;O:8:"testcase":7:{s:5:"input";s:15:"
+3
+0 2
+1 1
+2 3
+";s:6:"output";s:40:"PrID Prty
+   1    1
+   0    2
+   2    3
+";s:5:"imode";s:1:"0";s:5:"omode";s:1:"0";s:10:"time_limit";N;s:9:"mem_limit";N;s:6:"points";N;}i:8;O:8:"testcase":7:{s:5:"input";s:20:"cigma/scheduler.in.8";s:6:"output";s:21:"cigma/scheduler.out.8";s:5:"imode";s:1:"1";s:5:"omode";s:1:"1";s:10:"time_limit";N;s:9:"mem_limit";N;s:6:"points";N;}i:9;O:8:"testcase":7:{s:5:"input";s:20:"cigma/scheduler.in.9";s:6:"output";s:21:"cigma/scheduler.out.9";s:5:"imode";s:1:"1";s:5:"omode";s:1:"1";s:10:"time_limit";N;s:9:"mem_limit";N;s:6:"points";N;}i:10;O:8:"testcase":7:{s:5:"input";s:21:"cigma/scheduler.in.10";s:6:"output";s:22:"cigma/scheduler.out.10";s:5:"imode";s:1:"1";s:5:"omode";s:1:"1";s:10:"time_limit";N;s:9:"mem_limit";N;s:6:"points";N;}}s:4:"body";s:878:"<P>A scheduler schedules processes according to their priority. There are n processes with 0<=priorities<10000. A lower (numbered) priority process must be scheduled before a higher (numbered) priority process. You will be given the ID and priority of n processes. Your task is to find the order of the processes that the scheduler will run. If 2 processes have same priority then the ties are resolved by First Come First serve (processes that comes first in the input and not the id). Output the order in which the processes will be executed, as a list of their IDs and priorities.</P>
+
+<P>Your output should be formatted as follows. 1st line should be "PrID Prty". On 2nd line onwards display the process ID right indented such that the least significant digit is below 'D' of "PrID". Its priority must be similarly right indented such that LSD comes below 'y' of "Prty".</P>";s:8:"examples";a:3:{i:7;s:103:"
+    Process 1 starts first with the lowest-numbered priority, while Process 2 brings up the rear.
+    ";i:5;s:69:"
+    As simple as it gets, with only one process to reckon with.
+    ";i:3;s:58:"
+    Note that multiple processes have same priority.
+    ";}s:11:"constraints";a:2:{s:5:"INPUT";a:3:{i:0;s:8:"Line1: n";i:1;s:52:"Line2..n+1: i p (where i = process ID, p = priority)";i:2;s:29:"0 < n < 10000, 0 <= p < 10000";}s:6:"OUTPUT";a:2:{i:0;s:16:"Line1: PrID Prty";i:1;s:86:"Line 2..n+1: Process ID and priority formatted according to the rules specified above.";}}s:6:"parser";i:0;s:6:"inside";a:5:{i:0;N;i:1;s:7:"PROBLEM";i:2;s:8:"EXAMPLES";i:3;s:7:"EXAMPLE";i:4;s:6:"OUTPUT";}s:5:"depth";i:0;s:2:"id";s:1:"3";s:10:"error_func";s:5:"error";}

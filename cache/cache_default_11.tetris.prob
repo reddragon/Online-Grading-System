@@ -1,0 +1,300 @@
+                      3746918525O:7:"problem":9:{s:5:"tests";a:31:{i:1;O:8:"testcase":7:{s:5:"input";s:16:"1 4 2
+111100000
+";s:6:"output";s:2:"1
+";s:5:"imode";s:1:"0";s:5:"omode";s:1:"0";s:10:"time_limit";N;s:9:"mem_limit";N;s:6:"points";N;}i:2;O:8:"testcase":7:{s:5:"input";s:17:"
+1 4 3
+111000000
+";s:6:"output";s:2:"3
+";s:5:"imode";s:1:"0";s:5:"omode";s:1:"0";s:10:"time_limit";N;s:9:"mem_limit";N;s:6:"points";N;}i:3;O:8:"testcase":7:{s:5:"input";s:28:"
+2 30 5
+110110000
+100000000
+";s:6:"output";s:10:"121891973
+";s:5:"imode";s:1:"0";s:5:"omode";s:1:"0";s:10:"time_limit";N;s:9:"mem_limit";N;s:6:"points";N;}i:4;O:8:"testcase":7:{s:5:"input";s:18:"
+1 30 5
+110100000
+";s:6:"output";s:10:"633231872
+";s:5:"imode";s:1:"0";s:5:"omode";s:1:"0";s:10:"time_limit";N;s:9:"mem_limit";N;s:6:"points";N;}i:5;O:8:"testcase":7:{s:5:"input";s:28:"
+2 30 5
+100000000
+111100000
+";s:6:"output";s:9:"32382710
+";s:5:"imode";s:1:"0";s:5:"omode";s:1:"0";s:10:"time_limit";N;s:9:"mem_limit";N;s:6:"points";N;}i:6;O:8:"testcase":7:{s:5:"input";s:38:"
+3 30 5
+100000000
+110100000
+111100000
+";s:6:"output";s:10:"898166954
+";s:5:"imode";s:1:"0";s:5:"omode";s:1:"0";s:10:"time_limit";N;s:9:"mem_limit";N;s:6:"points";N;}i:7;O:8:"testcase":7:{s:5:"input";s:28:"
+2 29 5
+111100000
+110100100
+";s:6:"output";s:2:"0
+";s:5:"imode";s:1:"0";s:5:"omode";s:1:"0";s:10:"time_limit";N;s:9:"mem_limit";N;s:6:"points";N;}i:8;O:8:"testcase":7:{s:5:"input";s:78:"
+7 30 5
+100000000
+110000000
+110100000
+111100000
+111001000
+111010010
+110010011
+";s:6:"output";s:10:"260296331
+";s:5:"imode";s:1:"0";s:5:"omode";s:1:"0";s:10:"time_limit";N;s:9:"mem_limit";N;s:6:"points";N;}i:9;O:8:"testcase":7:{s:5:"input";s:78:"
+7 30 5
+111010010
+111001001
+110010011
+110000000
+111101111
+111001111
+111001001
+";s:6:"output";s:10:"916872821
+";s:5:"imode";s:1:"0";s:5:"omode";s:1:"0";s:10:"time_limit";N;s:9:"mem_limit";N;s:6:"points";N;}i:10;O:8:"testcase":7:{s:5:"input";s:78:"
+7 10 7
+100000000
+110000000
+111000000
+110110000
+111101000
+111111111
+111111100
+";s:6:"output";s:10:"413178340
+";s:5:"imode";s:1:"0";s:5:"omode";s:1:"0";s:10:"time_limit";N;s:9:"mem_limit";N;s:6:"points";N;}i:11;O:8:"testcase":7:{s:5:"input";s:78:"
+7 26 5
+111100000
+111100100
+111111110
+111010000
+110100000
+111000000
+111111111
+";s:6:"output";s:8:"4091753
+";s:5:"imode";s:1:"0";s:5:"omode";s:1:"0";s:10:"time_limit";N;s:9:"mem_limit";N;s:6:"points";N;}i:12;O:8:"testcase":7:{s:5:"input";s:78:"
+7 29 5
+100000000
+111110000
+110000000
+111010111
+110010011
+111011000
+111111000
+";s:6:"output";s:10:"656243183
+";s:5:"imode";s:1:"0";s:5:"omode";s:1:"0";s:10:"time_limit";N;s:9:"mem_limit";N;s:6:"points";N;}i:13;O:8:"testcase":7:{s:5:"input";s:78:"
+7 28 5
+111100000
+111011000
+111010111
+111101101
+111111110
+111111000
+111010010
+";s:6:"output";s:10:"966447155
+";s:5:"imode";s:1:"0";s:5:"omode";s:1:"0";s:10:"time_limit";N;s:9:"mem_limit";N;s:6:"points";N;}i:14;O:8:"testcase":7:{s:5:"input";s:78:"
+7 27 5
+100000000
+111010111
+111101101
+110010110
+111010000
+111111110
+111111000
+";s:6:"output";s:10:"984732478
+";s:5:"imode";s:1:"0";s:5:"omode";s:1:"0";s:10:"time_limit";N;s:9:"mem_limit";N;s:6:"points";N;}i:15;O:8:"testcase":7:{s:5:"input";s:78:"
+7 26 5
+111100000
+111110000
+110100000
+110010110
+111000000
+111101101
+011010110
+";s:6:"output";s:10:"528693145
+";s:5:"imode";s:1:"0";s:5:"omode";s:1:"0";s:10:"time_limit";N;s:9:"mem_limit";N;s:6:"points";N;}i:16;O:8:"testcase":7:{s:5:"input";s:78:"
+7 29 5
+100000000
+110000000
+111011000
+111111110
+111000000
+111101111
+111111111
+";s:6:"output";s:10:"455039868
+";s:5:"imode";s:1:"0";s:5:"omode";s:1:"0";s:10:"time_limit";N;s:9:"mem_limit";N;s:6:"points";N;}i:17;O:8:"testcase":7:{s:5:"input";s:78:"
+7 25 5
+111100000
+111111000
+111111110
+111010010
+111010111
+111101101
+110100000
+";s:6:"output";s:10:"847494893
+";s:5:"imode";s:1:"0";s:5:"omode";s:1:"0";s:10:"time_limit";N;s:9:"mem_limit";N;s:6:"points";N;}i:18;O:8:"testcase":7:{s:5:"input";s:78:"
+7 26 5
+100000000
+111010010
+111111000
+111010000
+111110000
+111000000
+111011000
+";s:6:"output";s:10:"632935751
+";s:5:"imode";s:1:"0";s:5:"omode";s:1:"0";s:10:"time_limit";N;s:9:"mem_limit";N;s:6:"points";N;}i:19;O:8:"testcase":7:{s:5:"input";s:78:"
+7 30 5
+111100000
+111101101
+111011000
+111100100
+110010110
+111111111
+111111110
+";s:6:"output";s:10:"448759953
+";s:5:"imode";s:1:"0";s:5:"omode";s:1:"0";s:10:"time_limit";N;s:9:"mem_limit";N;s:6:"points";N;}i:20;O:8:"testcase":7:{s:5:"input";s:78:"
+7 28 5
+100000000
+111101101
+110100000
+111011000
+110010011
+111111000
+011010110
+";s:6:"output";s:10:"429826175
+";s:5:"imode";s:1:"0";s:5:"omode";s:1:"0";s:10:"time_limit";N;s:9:"mem_limit";N;s:6:"points";N;}i:21;O:8:"testcase":7:{s:5:"input";s:78:"
+7 27 5
+111100000
+111111100
+111011000
+110110000
+111101101
+111010010
+110100000
+";s:6:"output";s:10:"944423656
+";s:5:"imode";s:1:"0";s:5:"omode";s:1:"0";s:10:"time_limit";N;s:9:"mem_limit";N;s:6:"points";N;}i:22;O:8:"testcase":7:{s:5:"input";s:78:"
+7 28 5
+100000000
+110110000
+111100100
+110010110
+111111111
+111101101
+110000000
+";s:6:"output";s:10:"815465458
+";s:5:"imode";s:1:"0";s:5:"omode";s:1:"0";s:10:"time_limit";N;s:9:"mem_limit";N;s:6:"points";N;}i:23;O:8:"testcase":7:{s:5:"input";s:78:"
+7 25 5
+111100000
+111101111
+111111111
+111001000
+110000000
+111011000
+111100100
+";s:6:"output";s:10:"624174035
+";s:5:"imode";s:1:"0";s:5:"omode";s:1:"0";s:10:"time_limit";N;s:9:"mem_limit";N;s:6:"points";N;}i:24;O:8:"testcase":7:{s:5:"input";s:78:"
+7 28 5
+100000000
+011010110
+111111111
+111100100
+111011000
+110010110
+110000000
+";s:6:"output";s:10:"313878873
+";s:5:"imode";s:1:"0";s:5:"omode";s:1:"0";s:10:"time_limit";N;s:9:"mem_limit";N;s:6:"points";N;}i:25;O:8:"testcase":7:{s:5:"input";s:78:"
+7 29 5
+111100000
+111010010
+110010110
+111101111
+111110000
+011010110
+110000000
+";s:6:"output";s:10:"423520262
+";s:5:"imode";s:1:"0";s:5:"omode";s:1:"0";s:10:"time_limit";N;s:9:"mem_limit";N;s:6:"points";N;}i:26;O:8:"testcase":7:{s:5:"input";s:78:"
+7 26 5
+100000000
+111111000
+110010110
+111100100
+111101111
+110010011
+111011000
+";s:6:"output";s:10:"407091033
+";s:5:"imode";s:1:"0";s:5:"omode";s:1:"0";s:10:"time_limit";N;s:9:"mem_limit";N;s:6:"points";N;}i:27;O:8:"testcase":7:{s:5:"input";s:78:"
+7 29 5
+111100000
+111111100
+111111110
+111010000
+110000000
+110010110
+111101111
+";s:6:"output";s:10:"118406124
+";s:5:"imode";s:1:"0";s:5:"omode";s:1:"0";s:10:"time_limit";N;s:9:"mem_limit";N;s:6:"points";N;}i:28;O:8:"testcase":7:{s:5:"input";s:78:"
+7 30 5
+100000000
+111010000
+110000000
+111110000
+111111111
+111111000
+111010111
+";s:6:"output";s:10:"358968998
+";s:5:"imode";s:1:"0";s:5:"omode";s:1:"0";s:10:"time_limit";N;s:9:"mem_limit";N;s:6:"points";N;}i:29;O:8:"testcase":7:{s:5:"input";s:78:"
+7 20 5
+111100000
+111010010
+111111111
+110010011
+111100100
+111011000
+111000000
+";s:6:"output";s:10:"219776783
+";s:5:"imode";s:1:"0";s:5:"omode";s:1:"0";s:10:"time_limit";N;s:9:"mem_limit";N;s:6:"points";N;}i:30;O:8:"testcase":7:{s:5:"input";s:78:"
+7 29 5
+100000000
+111110000
+111101101
+111011000
+111010111
+111101111
+111000000
+";s:6:"output";s:10:"634670623
+";s:5:"imode";s:1:"0";s:5:"omode";s:1:"0";s:10:"time_limit";N;s:9:"mem_limit";N;s:6:"points";N;}i:31;O:8:"testcase":7:{s:5:"input";s:18:"
+1 30 3
+111000000
+";s:6:"output";s:6:"58425
+";s:5:"imode";s:1:"0";s:5:"omode";s:1:"0";s:10:"time_limit";N;s:9:"mem_limit";N;s:6:"points";N;}}s:4:"body";s:1596:"
+<P>In a modified game of tetris, the board is n units wide. And the rows disappear (giving you some points) only when consecutive m rows are completely filled. For larger values of m, the game becomes very tough. To simplify the game, you can choose any number of, any type of falling blocks available in that level. The available blocks are of maximum 3 units x 3 units. There are k number of blocks. You know the shapes of all the available blocks. Your task is to determine in how many ways can you fit these blocks in a rectangular area of n*m units (completely filled). You can rotate any block by multiple of 90degrees. You need not choose all the available blocks and you may also choose a single block as many times as you want.</P>
+<P>The available blocks are entered as a sequence of 9 characters. First 3 characters correspond to the 1st row, next 3 to the 2nd row, last 3 to the last row. The character is '1' if that position is solid, else it is '0'. For example a simple single unit*unit block is given as "100000000". Always there is atleast one '1' in the 1st row and one '1' in the 1st column. Given n, m and various available pieces in the given format, display the number of ways to fit them in the rectangular region. If the answer is more than or equal to 1000000000, then display only the last 9 digits of the answer.</P>
+<P><B>Note:</B> the block is internally contiguous. A block like 100000001 is not allowed. But a block like 111101111 is allowed. Also the n*m block must be exactly and completely filled. Solid units cannot extend either the width or the height.</P>
+";s:8:"examples";a:3:{i:1;s:92:"
+The 2x4 board can be filled in only 1 way.
+<PRE CLASS="shell_output">
+aaab
+abbb
+</PRE>
+    ";i:2;s:254:"
+    With only a single block of 3 units wide (1 unit in height), there are 3 ways to fill in a 3x4 board.
+<PRE CLASS="shell_output">
+abbb       bbba       abcd
+accc       ccca       abcd
+addd       ddda       abcd
+(1st Way)  (2nd Way)  (3rd Way)
+</PRE>
+";i:8;s:21:"
+Beware of time out.
+";}s:11:"constraints";a:2:{s:5:"INPUT";a:5:{i:0;s:72:"
+Line 1: k n m (k = no. of blocks, m = no. of rows, n = no. of columns)
+";i:1;s:60:"
+Line 2..k+1: Blocks available formatted a explained above.
+";i:2;s:40:"
+1 <= n <= 30, 1 <= m <= 5, 1 <= k <= 7
+";i:3;s:70:"
+There is atleast one '1' in the 1st row and one 1 in the 1st column.
+";i:4;s:124:"
+All the blocks are unique.
+No 2 available blocks can be derived from one another by rotation by any multiple of 90degrees.
+";}s:6:"OUTPUT";a:1:{i:0;s:100:"
+Line 1: The required answer (maximum 9 digits). Display answer%1000000000 if answer >= 1000000000.
+";}}s:6:"parser";i:0;s:6:"inside";a:5:{i:0;N;i:1;s:7:"PROBLEM";i:2;s:8:"EXAMPLES";i:3;s:7:"EXAMPLE";i:4;s:6:"OUTPUT";}s:5:"depth";i:0;s:2:"id";s:1:"8";s:10:"error_func";s:5:"error";}

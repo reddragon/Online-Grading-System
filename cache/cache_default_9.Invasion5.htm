@@ -1,0 +1,51 @@
+                      2556576727<script type="text/javascript">var problemVersion = 7;</script><div id="problem_title">Problem: <b>Invasion5</b></div><div id="problem"><div id="problem_header"><b>Summary:</b> Level Z<br /><b>Weight:</b> 500<br /><b>Time limit:</b> 0.5 second(s)<br /><b>Memory limit:</b> 32 MB<br /><b>Test cases:</b> 23</div><div id="problem_body">
+<b>Description:</b><br /><div id="problem_body_text">
+<p>Following the recent buildup of tensions between the United Nations of Earth and some alien empires, the need for dedicated and capable cryptanalysts has increased manifold, their work ranging from ensuring the security of our trans-galactic communication lines to intercepting and decoding enemy communications. In order to keep its cryptanalysts motivated, the IIA (Indian Intelligence Agency, the premier private security and intelligence provider to a number of Terran governments), has come up with a novel method of awarding scores for every task completed. Also based on the number of tasks completed, cryptanalysts are classified into levels -- counting up from level 0 (lowest).</p>
+
+<p>The level to which a cryptanalyst belongs dictates the number of score points he/she gets for each task completed. At level 0, points for each task is just +1. At each subsequent level, the number of points awarded for each task doubles. So it will be +2 for level 1, +4 for level 2, and so on. Thus, the points for completing task in level k would be 2^k.</p>
+
+<p>A certain number of tasks, say <b>n</b>, must be completed in the current level to move on to the next level. Since jobs assigned to each can be different on the scale of difficulty, this number <b>n</b> may vary for each individual.</p>
+
+<p>Being a talented and highly competitive IIA cryptanalyst yourself, you would naturally like to compare your scores with those of your colleagues. However you've discovered that they have a bad habit of boasting about their scores, and since their actual scores are private between them and their superiors, you've no way of verifying their claimed scores.</p>
+
+<p>To solve this dilemma, you decide to write a program to check the correctness of other people's claimed scores, because you realize that some scores aren't possible. Also assuming that people wouldn't claim to have a score lower than what they actually do, you make your program print the highest score <b>s</b> <= <b>x</b> actually possible, given that a person claims a score of <b>x</b>, and has <b>n</b> as the number of tasks per level (as explained above). Also print the level <b>z</b> that this person would belong to if he/she had that score (of <b>s</b>).</p>
+
+<P>Note: A long integer can only hold values between -2147483648 and +2147483647.</P></div></div>
+<div id="problem_constraints">
+<b>Formatting/Constraints:</b>
+<ul>
+<li><i>Input:</i>
+<ol>
+<li>Line1: <b>n</b> <b>x</b></li>
+<li>0 < n <= 1000,000,000 0 <= x <= 1000,000,000</li>
+</ol>
+</li>
+<li><i>Output:</i>
+<ol>
+<li>Line1: <b>z</b></li>
+<li>Line2: <b>s</b></li>
+</ol>
+</li>
+</ul>
+</div>
+<div id="problem_examples"><b>Examples:</b>
+<ol>
+<li>
+<b>Input:</b> <pre>1 5</pre>
+<b>Output:</b> <pre>2
+3
+</pre>
+<b>Analysis:</b> <div class="analysis">
+With n=1, a person will have score=1, level=1 after first task; score=3,level=2 after second task; score=7,level=3 after third task. So score <= 5 is 3 for which level=2.</div>
+</li>
+<li>
+<b>Input:</b> <pre>10 57</pre>
+<b>Output:</b> <pre>2
+54
+</pre>
+<b>Analysis:</b> <div class="analysis">
+Scores after each completed task will be 1,2,3,...,8,9,10,12,14,16,...,26,28,30,34,38,42,44,46,50,54,58... thus largest possible score <= 57 is 54, with a level of 2.
+</div>
+</li>
+</ol></div>
+</div>

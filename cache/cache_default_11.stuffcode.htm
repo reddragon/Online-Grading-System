@@ -1,0 +1,71 @@
+                       750052876<script type="text/javascript">var problemVersion = 5;</script><div id="problem_title">Problem: <b>stuffcode</b></div><div id="problem"><div id="problem_header"><b>Summary:</b> Decrypting Stuffed Code<br /><b>Weight:</b> 250<br /><b>Time limit:</b> 1 second(s)<br /><b>Memory limit:</b> 32 MB<br /><b>Test cases:</b> 28</div><div id="problem_body">
+<b>Description:</b><br /><div id="problem_body_text">
+    
+<P>A given message is encrypted as follows. Every character is encoded as a number. If the character is an uppercase alphabet then the number is 1 for 'A', 2 for 'B' .. 26 for 'Z'.. if the alphabet is lowercase then the number is 27 for 'a', 28 for 'b'... 52 for 'z'. A space is encoded as 53. In between every encoded character a number 0 is inserted.</P>
+<P>Your task is to decode such a string. There is no added '0' at the end of the input. If the input format is incorrect or cannot be decoded, then output only "Invalid".</P>
+</div></div>
+<div id="problem_constraints">
+<b>Formatting/Constraints:</b>
+<ul>
+<li><i>Input:</i>
+<ol>
+<li>
+        Line1: String to be decrypted.
+        </li>
+<li> 
+        1 <= length <= 100
+        </li>
+<li>
+        All characters will be between '0' and '9' inclusive.
+        </li>
+</ol>
+</li>
+<li><i>Output:</i>
+<ol>
+<li>
+        Line1: The decrypted string, or just "Invalid" (without the quotes).
+        </li>
+</ol>
+</li>
+</ul>
+</div>
+<div id="problem_examples"><b>Examples:</b>
+<ol>
+<li>
+<b>Input:</b> <pre>309070130105301801503011019</pre>
+<b>Output:</b> <pre>CIGMA ROCKS
+</pre>
+<b>Analysis:</b> <div class="analysis">
+
+    Bet you agree to that!
+    </div>
+</li>
+<li>
+<b>Input:</b> <pre>1001001010</pre>
+<b>Output:</b> <pre>JJAJ
+</pre>
+<b>Analysis:</b> <div class="analysis">
+
+    Tokens are 10, 10, 1, 10 (since there is no added 0 at the end).
+    </div>
+</li>
+<li>
+<b>Input:</b> <pre>10001001</pre>
+<b>Output:</b> <pre>Invalid
+</pre>
+<b>Analysis:</b> <div class="analysis">
+
+    The first code can't be 10, because that would leave two zeroes until next character. And it can't be 100 either, since that doesn't match any character. Thus code is invalid.
+    </div>
+</li>
+<li>
+<b>Input:</b> <pre>10060</pre>
+<b>Output:</b> <pre>Invalid
+</pre>
+<b>Analysis:</b> <div class="analysis">
+
+    Last token cannot be 60. Neither can it be 6 as a 0 can't be added at the end of input.
+    </div>
+</li>
+</ol></div>
+</div>

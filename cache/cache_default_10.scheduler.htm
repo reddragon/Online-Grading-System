@@ -1,0 +1,82 @@
+                      3651563318<script type="text/javascript">var problemVersion = 5;</script><div id="problem_title">Problem: <b>scheduler</b></div><div id="problem"><div id="problem_header"><b>Summary:</b> Process Scheduler<br /><b>Weight:</b> 250<br /><b>Time limit:</b> 1 second(s)<br /><b>Memory limit:</b> 32 MB<br /><b>Test cases:</b> 10</div><div id="problem_body">
+<b>Description:</b><br /><div id="problem_body_text">
+<P>A scheduler schedules processes according to their priority. There are n processes with 0<=priorities<10000. A lower (numbered) priority process must be scheduled before a higher (numbered) priority process. You will be given the ID and priority of n processes. Your task is to find the order of the processes that the scheduler will run. If 2 processes have same priority then the ties are resolved by First Come First serve (processes that comes first in the input and not the id). Output the order in which the processes will be executed, as a list of their IDs and priorities.</P>
+
+<P>Your output should be formatted as follows. 1st line should be "PrID Prty". On 2nd line onwards display the process ID right indented such that the least significant digit is below 'D' of "PrID". Its priority must be similarly right indented such that LSD comes below 'y' of "Prty".</P></div></div>
+<div id="problem_constraints">
+<b>Formatting/Constraints:</b>
+<ul>
+<li><i>Input:</i>
+<ol>
+<li>Line1: n</li>
+<li>Line2..n+1: i p (where i = process ID, p = priority)</li>
+<li>0 < n < 10000, 0 <= p < 10000</li>
+</ol>
+</li>
+<li><i>Output:</i>
+<ol>
+<li>Line1: PrID Prty</li>
+<li>Line 2..n+1: Process ID and priority formatted according to the rules specified above.</li>
+</ol>
+</li>
+</ul>
+</div>
+<div id="problem_examples"><b>Examples:</b>
+<ol>
+<li>
+<b>Input:</b> <pre>3
+0 2
+1 1
+2 3</pre>
+<b>Output:</b> <pre>PrID Prty
+   1    1
+   0    2
+   2    3
+</pre>
+<b>Analysis:</b> <div class="analysis">
+
+    Process 1 starts first with the lowest-numbered priority, while Process 2 brings up the rear.
+    </div>
+</li>
+<li>
+<b>Input:</b> <pre>1
+1 9999</pre>
+<b>Output:</b> <pre>PrID Prty
+   1 9999
+</pre>
+<b>Analysis:</b> <div class="analysis">
+
+    As simple as it gets, with only one process to reckon with.
+    </div>
+</li>
+<li>
+<b>Input:</b> <pre>10
+2 100
+3 4
+10 9999
+9 9998
+8 1
+1 100
+4 1024
+20 2048
+21 1
+16 16</pre>
+<b>Output:</b> <pre>PrID Prty
+   8    1
+  21    1
+   3    4
+  16   16
+   2  100
+   1  100
+   4 1024
+  20 2048
+   9 9998
+  10 9999
+</pre>
+<b>Analysis:</b> <div class="analysis">
+
+    Note that multiple processes have same priority.
+    </div>
+</li>
+</ol></div>
+</div>

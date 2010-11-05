@@ -1,0 +1,80 @@
+                      1222510537<script type="text/javascript">var problemVersion = 8;</script><div id="problem_title">Problem: <b>blast</b></div><div id="problem"><div id="problem_header"><b>Summary:</b> Tile Blaster<br /><b>Weight:</b> 500<br /><b>Time limit:</b> 0.5 second(s)<br /><b>Memory limit:</b> 32 MB<br /><b>Test cases:</b> 20</div><div id="problem_body">
+<b>Description:</b><br /><div id="problem_body_text">
+
+<P>In a game of Block Blast you have to finish all the tiles on the board. The tiles are of different types. When you click on any tile and if it is a part of a block of 3 or more tiles of same type which are orthogonally contiguous, the entire block disappears and the tiles above it fall down to take their places. You continue this process to blast away all the tiles on the board. Obviously you need a strategy to solve the board. Presently we will solve a simpler sub problem. At any given instance of the board, how many of the tiles when clicked on, will reduce the number of tiles on the board. The tiles are numbered 1 to 9. Tiles with same number are tiles of same type.</P>
+<P>Note: Do not bother about the falling of tiles.</P>
+</div></div>
+<div id="problem_constraints">
+<b>Formatting/Constraints:</b>
+<ul>
+<li><i>Input:</i>
+<ol>
+<li>
+        Line 1: m n (the size of the board: m rows x n columns)
+        </li>
+<li>
+        Line 2..m+1: String representing the ith row.
+        </li>
+<li>
+        1 <= m, n <= 50
+        </li>
+</ol>
+</li>
+<li><i>Output:</i>
+<ol>
+<li>
+        Line 1: The number of tiles that match the required criteria.
+        </li>
+</ol>
+</li>
+</ul>
+</div>
+<div id="problem_examples"><b>Examples:</b>
+<ol>
+<li>
+<b>Input:</b> <pre>4 5
+11223
+12234
+13333
+31224</pre>
+<b>Output:</b> <pre>13
+</pre>
+<b>Analysis:</b> <div class="analysis">
+
+    Nothing in the last row can be clicked on. Also the last tile (3) in the 0th row, and the last tile (4) in the 1st row can't be clicked on either. That leaves 20-7=13 tiles.
+    </div>
+</li>
+<li>
+<b>Input:</b> <pre>4 10
+1122334455
+2233445511
+3344551122
+4455112233</pre>
+<b>Output:</b> <pre>0
+</pre>
+<b>Analysis:</b> <div class="analysis">
+
+    There are no othogonally contiguous groups of three tiles or more here.
+    </div>
+</li>
+<li>
+<b>Input:</b> <pre>10 10
+3123133322
+2133232111
+1313322112
+3333222311
+1213231312
+1312321312
+1311111331
+1113311321
+2332233212
+3221123123</pre>
+<b>Output:</b> <pre>57
+</pre>
+<b>Analysis:</b> <div class="analysis">
+
+    A bigger board.
+    </div>
+</li>
+</ol></div>
+</div>

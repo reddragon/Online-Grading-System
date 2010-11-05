@@ -1,0 +1,46 @@
+                      3531582355O:7:"problem":9:{s:5:"tests";a:13:{i:1;O:8:"testcase":7:{s:5:"input";s:25:"itendtoforgetgratethings
+";s:6:"output";s:20:"itend24getgr8things
+";s:5:"imode";s:1:"0";s:5:"omode";s:1:"0";s:10:"time_limit";N;s:9:"mem_limit";N;s:6:"points";N;}i:2;O:8:"testcase":7:{s:5:"input";s:18:"
+topspeedtortoise
+";s:6:"output";s:14:"2pspeed2r2ise
+";s:5:"imode";s:1:"0";s:5:"omode";s:1:"0";s:10:"time_limit";N;s:9:"mem_limit";N;s:6:"points";N;}i:3;O:8:"testcase":7:{s:5:"input";s:29:"
+ihatethisjobtomaketestcases
+";s:6:"output";s:25:"ih8thisjob2maketestcases
+";s:5:"imode";s:1:"0";s:5:"omode";s:1:"0";s:10:"time_limit";N;s:9:"mem_limit";N;s:6:"points";N;}i:4;O:8:"testcase":7:{s:5:"input";s:14:"
+atoefotoatae
+";s:6:"output";s:11:"a2efo2atae
+";s:5:"imode";s:1:"0";s:5:"omode";s:1:"0";s:10:"time_limit";N;s:9:"mem_limit";N;s:6:"points";N;}i:5;O:8:"testcase":7:{s:5:"input";s:21:"
+totoateforfrfrftate
+";s:6:"output";s:12:"2284frfrft8
+";s:5:"imode";s:1:"0";s:5:"omode";s:1:"0";s:10:"time_limit";N;s:9:"mem_limit";N;s:6:"points";N;}i:6;O:8:"testcase":7:{s:5:"input";s:101:"
+fasnpaoitewthainfapojoptepqowrtoojenfansratehntoietoansgfpainsforestewtoroptrwjepotopdsafnmdposafor
+";s:6:"output";s:89:"fasnpaoitewthainfapojoptepqowr2ojenfansr8hn2ie2ansgfpains4estew2roptrwjepo2pdsafnmdposa4
+";s:5:"imode";s:1:"0";s:5:"omode";s:1:"0";s:10:"time_limit";N;s:9:"mem_limit";N;s:6:"points";N;}i:7;O:8:"testcase":7:{s:5:"input";s:64:"
+forforforfortotototototototoatoatoateateteteteateeeoteaaaatefo
+";s:6:"output";s:37:"444422222222a2a288tetete8eeoteaaa8fo
+";s:5:"imode";s:1:"0";s:5:"omode";s:1:"0";s:10:"time_limit";N;s:9:"mem_limit";N;s:6:"points";N;}i:8;O:8:"testcase":7:{s:5:"input";s:3:"
+a
+";s:6:"output";s:2:"a
+";s:5:"imode";s:1:"0";s:5:"omode";s:1:"0";s:10:"time_limit";N;s:9:"mem_limit";N;s:6:"points";N;}i:9;O:8:"testcase":7:{s:5:"input";s:64:"
+aaaaaaaaaaaaaaaaattttttttttttteeeeeeeeetttttttttoooooooooooooo
+";s:6:"output";s:62:"aaaaaaaaaaaaaaaaattttttttttttteeeeeeeeetttttttt2ooooooooooooo
+";s:5:"imode";s:1:"0";s:5:"omode";s:1:"0";s:10:"time_limit";N;s:9:"mem_limit";N;s:6:"points";N;}i:10;O:8:"testcase":7:{s:5:"input";s:15:"
+forrestatoate
+";s:6:"output";s:9:"4resta28
+";s:5:"imode";s:1:"0";s:5:"omode";s:1:"0";s:10:"time_limit";N;s:9:"mem_limit";N;s:6:"points";N;}i:11;O:8:"testcase":7:{s:5:"input";s:32:"
+ithingthisistoomuchforthisprob
+";s:6:"output";s:28:"ithingthisis2omuch4thisprob
+";s:5:"imode";s:1:"0";s:5:"omode";s:1:"0";s:10:"time_limit";N;s:9:"mem_limit";N;s:6:"points";N;}i:12;O:8:"testcase":7:{s:5:"input";s:20:"iatetoomuchfortoday
+";s:6:"output";s:14:"i82omuch42day
+";s:5:"imode";s:1:"0";s:5:"omode";s:1:"0";s:10:"time_limit";N;s:9:"mem_limit";N;s:6:"points";N;}i:13;O:8:"testcase":7:{s:5:"input";s:11:"tofortyate
+";s:6:"output";s:6:"24ty8
+";s:5:"imode";s:1:"0";s:5:"omode";s:1:"0";s:10:"time_limit";N;s:9:"mem_limit";N;s:6:"points";N;}}s:4:"body";s:1268:"<p>It is the 22nd century, and humans have not only ventured into the stars, but also made contact with many alien races. The year is now 2140 AD. Following the recent buildup of tensions between the United Nations of Earth and some alien empires, reports are flowing in about intrusion attempts by alien hackers into civillian communication channels, leading to an immediate need for encryption of all human communication. The cost of sophisticated encryption over trans-galactic scales being highly expensive, the Indian Intelligence Agency has come up with a much cheaper yet effective alternative for day-to-day users.</p>
+
+<p>Most aliens have means of communication that seem completely strange to us, and so do our languages to them. This forces them to use rudimentary electronic decoders to interpret our languages. Consequently even slight changes in word spellings can make our languages difficult for them to interpret.</p>
+
+<p>Your task, as a cryptanalyst of the IIA, is to implement a prototype program which transforms any input text in the following manner: replace all occurences of 'to' by 2, all occurences of 'for' by 4, and all occurences of 'ate' by 8. Obviously, a message encrypted in such a way would pose no problem for a human to decode.</p>
+";s:8:"examples";a:2:{i:13;s:61:"
+		Replace "to", "for", "ate" by 2, 4, and 8 respectively.
+		";i:12;s:100:"
+		Well, its not always <I>that</I> readable by humans. But then this is just a prototype, right?
+		";}s:11:"constraints";a:2:{s:5:"INPUT";a:2:{i:0;s:58:"A single string <b>s</b> to encrypt, containing no spaces.";i:1;s:67:"Length of <b>s</b> will be between 1 and 250 characters, inclusive.";}s:6:"OUTPUT";a:1:{i:0;s:40:"A single line giving the encrypted text.";}}s:6:"parser";i:0;s:6:"inside";a:5:{i:0;N;i:1;s:7:"PROBLEM";i:2;s:8:"EXAMPLES";i:3;s:7:"EXAMPLE";i:4;s:6:"OUTPUT";}s:5:"depth";i:0;s:2:"id";s:2:"12";s:10:"error_func";s:5:"error";}

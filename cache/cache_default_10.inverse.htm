@@ -1,0 +1,54 @@
+                        73538914<script type="text/javascript">var problemVersion = 17;</script><div id="problem_title">Problem: <b>inverse</b></div><div id="problem"><div id="problem_header"><b>Summary:</b> Inverse Equation<br /><b>Weight:</b> 1000<br /><b>Time limit:</b> 1 second(s)<br /><b>Memory limit:</b> 32 MB<br /><b>Test cases:</b> 16</div><div id="problem_body">
+<b>Description:</b><br /><div id="problem_body_text">
+<p>Given an equation of the form <b>y = Ax + Bsin(x)</b>, and the values of A, B and y such that A<=B find the value of smallest non negative value of x, satisfying the equation.</p>
+
+<p> The output should be within 1e-8 absolute or relative error. To achieve this accuracy display upto 9 decimal places. Use double instead of float, and you may use <b>printf("%.9lf", ans)</b> in C/C++ to display the final answer.</p>
+
+<P><B>Note:</B> Absolute error is the difference of your answer to the expected answer. Relative error is (Absolute error)/(correct answer). Make sure that either one of them is less than 1e-8 for all the answers. Your answer will not be compared character by character but instead as a floating point value. So "0" or "0.0" or "0.000000000" or "0.000000009" (absolute error is less than 1e-8) are equivalent.</P>
+
+<P><B>Clarification: </B> x in sin(x) is in radians.</P>
+</div></div>
+<div id="problem_constraints">
+<b>Formatting/Constraints:</b>
+<ul>
+<li><i>Input:</i>
+<ol>
+<li>Line 1: A B y (all are integers) </li>
+<li>1 <= B <= 1000000</li>
+<li>1 <= A <= B</li>
+<li>0 <= y <= 1000000000</li>
+</ol>
+</li>
+<li><i>Output:</i>
+<ol>
+<li>Line 1: x</li>
+</ol>
+</li>
+</ul>
+</div>
+<div id="problem_examples"><b>Examples:</b>
+<ol>
+<li>
+<b>Input:</b> <pre>1 1 10</pre>
+<b>Output:</b> <pre>10.999990250</pre>
+<b>Analysis:</b> <div class="analysis">
+(10.99999025) + sin(10.99999025) gives 10 (accurate to more than 8 decimal places).</div>
+</li>
+<li>
+<b>Input:</b> <pre>1 2 0</pre>
+<b>Output:</b> <pre>0</pre>
+<b>Analysis:</b> <div class="analysis">
+
+   	Even printing 0 instead of 0.000000000 will do, since the output is still within 1e-8 of the actual value.
+    </div>
+</li>
+<li>
+<b>Input:</b> <pre>1 2 10</pre>
+<b>Output:</b> <pre>8.031391955</pre>
+<b>Analysis:</b> <div class="analysis">
+
+Make sure your answer has an error less than 1e-8 relative to the answer.
+    </div>
+</li>
+</ol></div>
+</div>

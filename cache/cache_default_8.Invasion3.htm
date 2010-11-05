@@ -1,0 +1,74 @@
+                      2222375237<script type="text/javascript">var problemVersion = 11;</script><div id="problem_title">Problem: <b>Invasion3</b></div><div id="problem"><div id="problem_header"><b>Summary:</b> The Knight Virus<br /><b>Weight:</b> 900<br /><b>Time limit:</b> 2 second(s)<br /><b>Memory limit:</b> 32 MB<br /><b>Test cases:</b> 17</div><div id="problem_body">
+<b>Description:</b><br /><div id="problem_body_text">
+<p>The war is here. The sceptics and pessimists had been predicting it all along. Skaarj, one of the smarter alien races we encountered in our inter-stellar exploration, has discarded their friendly pretences towards Earth and shown what they truly are... war-mongering scoundrels. What's worse, their millitary prowess is widely feared among the other alien races, leaving us without any allies in this inter-stellar war, the first of its kind in the history of mankind.</p>
+
+<p>Our strategists have determined that the Skaarj military, despite its high numbers, is no match for the advanced weapon technology that we possess. However, the IIA (Indian Intelligence Agency) has recently uncovered disturbing reports regarding a massive computer virus begin designed by Skaarj hackers to neutralize our navigation and weapon control systems. If this virus gets through our firewalls, humanity will be left defenseless, at the mercy of the Skaarj Invaders.</p>
+
+<p>Now intelligence reports have indicated that the enemy will be routing the virus packets through computer nodes all over the GCG (Galactic Computing Grid). This grid is organised in the form of a 2-dimensional matrix with equal number of rows and columns (say, <i>m</i>). The virus has been reported to jump between nodes in this grid in a manner identical to that of a Knight on a chess board. It also self-destructs after a certain number of jumps (say <i>n</i>). In other words, it can make maximum <i>n</i> moves.</p>
+
+<p>In order to give our security experts a fighting chance in holding up the firewalls, we need to calculate the total number of ways in which the virus can reach node Earth (with grid coordinates [<i>x2, y2</i>]) from the Skaarj home planet (grid coordinates [<i>x1, y1</i>]), given that it self-destructs after <i>n</i> jumps (hence in less than or equal to <I>n</I> steps).</p>
+
+<p>As the cryptanalyst of the IIA, your work is cut out for you. Godspeed coder, the future of humanity rests on your shoulders.</p>
+<P>You may suspect that since the virus can retraverse the same path multiple times, the number of ways increases exponentially with the number of steps. So your task is to display only the last 9 digits in the number (ans%1000000000). </P>
+<P>Note: Integer is by default a long integer and hence can accomodate numbers till 2*10^9. Beware of overflow. Do ans%1000000000 at every step.</P>
+</div></div>
+<div id="problem_constraints">
+<b>Formatting/Constraints:</b>
+<ul>
+<li><i>Input:</i>
+<ol>
+<li>Line 1: m(number of rows and columns in grid) n(maximum number of jumps)</li>
+<li>Line 2: x1 y1 x2 y2</li>
+<li>1 <= m <= 100</li>
+<li>0 <= n <= 100</li>
+<li>0 <= x1,y1,x2,y2 <= 99</li>
+</ol>
+</li>
+<li><i>Output:</i>
+<ol>
+<li>Output the number of possible ways on a single line.</li>
+</ol>
+</li>
+</ul>
+</div>
+<div id="problem_examples"><b>Examples:</b>
+<ol>
+<li>
+<b>Input:</b> <pre>3 3
+0 0 1 2</pre>
+<b>Output:</b> <pre>
+4
+</pre>
+<b>Analysis:</b> <div class="analysis">
+3X3 board, you start from (0,0) and have to reach (1,2). Following are the 4 ways: (0,0)->(1,2), (0,0)->(1,2)->(0,0)->(1,2), (0,0)->(1,2)->(2,0)->(1,2), (0,0)->(2,1)->(0,0)->(1,2)
+</div>
+</li>
+<li>
+<b>Input:</b> <pre>1 100
+0 0 0 0</pre>
+<b>Output:</b> <pre>1</pre>
+<b>Analysis:</b> <div class="analysis">
+Same source and destination. Unlikely in our situation, but better to be safe than sorry!</div>
+</li>
+<li>
+<b>Input:</b> <pre>2 50
+0 0 1 1</pre>
+<b>Output:</b> <pre>
+0
+</pre>
+<b>Analysis:</b> <div class="analysis">
+No way you can take a knight's jump on such a small board. Now you know how you can stop the virus, and where to place firewalls.
+</div>
+</li>
+<li>
+<b>Input:</b> <pre>50 50
+3 3 9 9</pre>
+<b>Output:</b> <pre>
+328174258
+</pre>
+<b>Analysis:</b> <div class="analysis">
+Thats big. Beware of overflows.
+</div>
+</li>
+</ol></div>
+</div>

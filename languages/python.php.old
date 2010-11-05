@@ -1,0 +1,19 @@
+<?php
+
+function lang_python_extensions() {
+	return array("py");
+}
+
+function lang_python_compile($source_file, $exec_file) {
+	global $cfg;
+	
+	$handle = fopen($exec_file, 'w');
+	fwrite($handle, "#!{$cfg['bin']['python']}\n");
+	fwrite($handle, file_get_contents($source_file));
+	fclose($handle);
+	chmod($exec_file, 0777);
+	
+	return true;
+}
+
+?>

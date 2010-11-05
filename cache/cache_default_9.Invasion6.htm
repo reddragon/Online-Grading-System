@@ -1,0 +1,93 @@
+                      3313899568<script type="text/javascript">var problemVersion = 15;</script><div id="problem_title">Problem: <b>Invasion6</b></div><div id="problem"><div id="problem_header"><b>Summary:</b> Judgement Day<br /><b>Weight:</b> 750<br /><b>Time limit:</b> 1 second(s)<br /><b>Memory limit:</b> 32 MB<br /><b>Test cases:</b> 17</div><div id="problem_body">
+<b>Description:</b><br /><div id="problem_body_text">
+<p>The Human-Skaarj war rages on, with no resolution in sight, even as our defenses get thinner each day. In a desparate attempt to end this madness, our top strategists have decided to launch a massive counter-attack on the Skaarj war machine. If all goes as planned, the Skaarj military power will be crushed forever, ending 13 years of inter-stellar war, and establishing Terran superiority over any hostile alien races. This daring plan, however, has necessicated the transfer of most our defending warships to strategic positions away from our home world, leaving it open to attack.</p>
+
+<p>Unaware of the impending threat to their own base, Skaarj ships are approaching Earth at full speed. It is time for the remaining ships and the ground defences to put up the last front. We must somehow hold off the attackers until the Terran forces return from their highly important mission.</p>
+
+<p>Gound-based anti-ship laser cannons with infinite supplies of ammunition are being deployed for this purpose. These cannons have an infinite range, and a damage radius which is in the form of a vertical cone with radius increasing by 1 unit for every unit increase in height. Any ships within this cone will be destroyed <b>instantaneously</b>, as soon as the cannon is fired. Now we need to destroy as many of the enemy ships as possible, but cannot afford to lose any of our own ships in friendly fire.</p>
+
+<p>This is where you come in, coder. To achieve best results, we need your program to calculate the <b>maximum number of enemy ships we can take out without hurting any of our own</b>. To simplify matters, we will represent the positions of both friendly and enemy ships using 2D coordinates (x, y) at some instant on a vertical plane, with the flat ground level at y=0. You can assume that any number of cannons can be fired from any point on the ground level, all at the same time at that very instant. On the 2D plane, their damage range can be represented by an inverted 90 degree angle with vertex at the ground, as shown below. Any ships with coordinates falling within or on the boundary of this angle will be destroyed immediately.</p>
+<pre class="shell_output">(y) (cannon range stretches infinitely)
+  5      \ /       /
+  4       x       /
+  3   *  /o\  *  / 
+  2 \   * * \   /
+  1  \ /     \ /  o 
+  0 --v-------v-----
+    0123456789012345 (x)
+
+In the above figure, x & y(height) coordinates have been shown along-side.
+o - friendly ship
+* - enemy ship
+v - cannon
+</pre>
+In the above case, it is obvious that only 3 of the 4 enemy ships can be destroyed as depicted without hurting our own ships. Note that any number of cannons with any x-positions can be used.
+
+<p>Judgement day draws near. The outcome of this war depends on the optimal performance of your program.</p></div></div>
+<div id="problem_constraints">
+<b>Formatting/Constraints:</b>
+<ul>
+<li><i>Input:</i>
+<ol>
+<li>Line 1: m (number of friendly ships)</li>
+<li>Lines 2..m+1: x y (coordinates of friendly ships)</li>
+<li>Line m+2: n (number of enemy ships)</li>
+<li>Lines m+3..m+n+2: x y (coordinates of enemy ships)</li>
+<li>1 <= m, n <= 50</li>
+<li>0 <= x <= 1000, 0 <= y <= 100</li>
+</ol>
+</li>
+<li><i>Output:</i>
+<ol>
+<li>A single line giving the maximum number of enemy ships that can be destroyed without hurting any friendly ships.</li>
+</ol>
+</li>
+</ul>
+</div>
+<div id="problem_examples"><b>Examples:</b>
+<ol>
+<li>
+<b>Input:</b> <pre>2
+6 3
+14 1
+4
+2 3
+4 2
+6 2
+10 3</pre>
+<b>Output:</b> <pre>3</pre>
+<b>Analysis:</b> <div class="analysis">
+The situation shown in the figure.</div>
+</li>
+<li>
+<b>Input:</b> <pre>2
+10 10
+30 10
+1
+20 20</pre>
+<b>Output:</b> <pre>0
+</pre>
+<b>Analysis:</b> <div class="analysis">
+The enemy ship cannot be hit without hitting one of the the
+two friendly ships.</div>
+</li>
+<li>
+<b>Input:</b> <pre>5
+0 10
+30 10
+50 10
+70 10
+100 10
+5
+10 10
+20 10
+40 10
+100 9
+90 20</pre>
+<b>Output:</b> <pre>3
+</pre>
+<b>Analysis:</b> <div class="analysis">
+Only the enemy ships at (100, 9) and (90, 20) can be hit.</div>
+</li>
+</ol></div>
+</div>

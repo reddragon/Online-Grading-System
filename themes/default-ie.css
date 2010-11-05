@@ -1,0 +1,145 @@
+body
+{
+    behavior:url("../htcmime.php?file=scripts/csshover.htc");
+}
+
+#content
+{
+	padding-left: 5em;
+}
+
+#main
+{
+	left: 6em;
+	right: -0.5em;
+	margin-left: 0em;
+}
+
+#problem_examples
+{
+	padding-left: 1.5em;
+}
+
+#problem_examples pre
+{
+	padding-left: 1.5em;
+}
+
+#problem_constraints
+{
+	padding-left: 1em;
+}
+
+pre.shell_output
+{
+	padding-left: 1em;
+}
+
+pre.test_compile_error
+{
+	padding-left: 2em;
+}
+
+pre.test_all_ok
+{
+	padding-left: 2em;
+}
+
+pre.test_failed
+{
+	padding-left: 2em;
+}
+
+/*body
+{
+	font-family: Trebuchet MS, sans-serif, Verdana, Arial;
+	font-size: 13px;
+}*/
+
+p.lower
+{
+	padding-left: 0.75em;
+	margin: 1em;
+}
+
+/*.mimic_para
+{
+	padding-left: 1em;
+	margin: 1em;
+}*/
+
+#problem_header
+{
+	/*border-left: solid 4px #260CA6;*/
+	padding: 0.5em;
+	margin-top: 1em;
+	margin-bottom: 1em;
+	margin-left: 0em;
+	margin-right: 2em;
+}
+
+#problem_examples
+{
+	/*border-left: solid 4px #9F006A;*/
+	padding: 0.5em;
+	margin-top: 1em;
+	margin-bottom: 1em;
+	margin-left: 0em;
+	margin-right: 2em;
+}
+
+#problem_body_text
+{
+	padding-left: 3em;
+	text-indent: 1em;
+}
+
+#problem_body
+{
+	/*border-left: solid 4px #260CA6;*/
+	padding: 0.5em;
+	margin-top: 1em;
+	margin-bottom: 1em;
+	margin-left: 0em;
+	margin-right: 2em;
+}
+
+#problem_constraints
+{
+	/*border-left: solid 4px #260CA6;*/
+	padding: 0.5em;
+	margin-top: 1em;
+	margin-bottom: 1em;
+	margin-left: 0em;
+	margin-right: 2em;
+}
+
+#problem_title
+{
+	/*font-size: 13px;*/
+	background-color: #808080;
+	color: #FFFFFF;
+	padding: 0.5em;
+	margin: 1em;
+}
+
+.soltop
+{
+    margin-left: 4px;
+}
+
+.solbottom
+{
+    margin-left: 4px;
+}
+
+iframe
+{
+    margin-left: 30px;
+}
+
+.solcont form div table {
+    margin-top: 0em;
+    margin-bottom: 0em;
+    width: 80%;
+}

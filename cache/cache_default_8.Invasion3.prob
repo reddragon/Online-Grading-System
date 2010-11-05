@@ -1,0 +1,82 @@
+                      2630093144O:7:"problem":9:{s:5:"tests";a:17:{i:0;O:8:"testcase":7:{s:5:"input";s:13:"
+3 3
+0 0 1 2
+";s:6:"output";s:3:"
+4
+";s:5:"imode";s:1:"0";s:5:"omode";s:1:"0";s:10:"time_limit";N;s:9:"mem_limit";N;s:6:"points";N;}i:1;O:8:"testcase":7:{s:5:"input";s:13:"1 100
+0 0 0 0";s:6:"output";s:1:"1";s:5:"imode";s:1:"0";s:5:"omode";s:1:"0";s:10:"time_limit";N;s:9:"mem_limit";N;s:6:"points";N;}i:2;O:8:"testcase":7:{s:5:"input";s:14:"
+2 50
+0 0 1 1
+";s:6:"output";s:3:"
+0
+";s:5:"imode";s:1:"0";s:5:"omode";s:1:"0";s:10:"time_limit";N;s:9:"mem_limit";N;s:6:"points";N;}i:3;O:8:"testcase":7:{s:5:"input";s:15:"
+50 50
+3 3 9 9
+";s:6:"output";s:11:"
+328174258
+";s:5:"imode";s:1:"0";s:5:"omode";s:1:"0";s:10:"time_limit";N;s:9:"mem_limit";N;s:6:"points";N;}i:10;O:8:"testcase":7:{s:5:"input";s:14:"10 20
+1 3 4 7
+";s:6:"output";s:10:"874224281
+";s:5:"imode";s:1:"0";s:5:"omode";s:1:"0";s:10:"time_limit";N;s:9:"mem_limit";N;s:6:"points";N;}i:11;O:8:"testcase":7:{s:5:"input";s:18:"
+100 100
+1 3 64 7
+";s:6:"output";s:10:"832125214
+";s:5:"imode";s:1:"0";s:5:"omode";s:1:"0";s:10:"time_limit";N;s:9:"mem_limit";N;s:6:"points";N;}i:12;O:8:"testcase":7:{s:5:"input";s:18:"
+100 20
+1 2 10 10
+";s:6:"output";s:10:"217377301
+";s:5:"imode";s:1:"0";s:5:"omode";s:1:"0";s:10:"time_limit";N;s:9:"mem_limit";N;s:6:"points";N;}i:13;O:8:"testcase":7:{s:5:"input";s:19:"
+100 100
+1 1 99 99
+";s:6:"output";s:9:"91959264
+";s:5:"imode";s:1:"0";s:5:"omode";s:1:"0";s:10:"time_limit";N;s:9:"mem_limit";N;s:6:"points";N;}i:14;O:8:"testcase":7:{s:5:"input";s:15:"
+50 30
+1 1 1 1
+";s:6:"output";s:10:"773014893
+";s:5:"imode";s:1:"0";s:5:"omode";s:1:"0";s:10:"time_limit";N;s:9:"mem_limit";N;s:6:"points";N;}i:15;O:8:"testcase":7:{s:5:"input";s:20:"
+40 100
+20 20 20 20
+";s:6:"output";s:10:"912525717
+";s:5:"imode";s:1:"0";s:5:"omode";s:1:"0";s:10:"time_limit";N;s:9:"mem_limit";N;s:6:"points";N;}i:16;O:8:"testcase":7:{s:5:"input";s:15:"
+3 100
+0 0 1 0
+";s:6:"output";s:10:"830446251
+";s:5:"imode";s:1:"0";s:5:"omode";s:1:"0";s:10:"time_limit";N;s:9:"mem_limit";N;s:6:"points";N;}i:17;O:8:"testcase":7:{s:5:"input";s:15:"
+1 100
+0 0 0 0
+";s:6:"output";s:2:"1
+";s:5:"imode";s:1:"0";s:5:"omode";s:1:"0";s:10:"time_limit";N;s:9:"mem_limit";N;s:6:"points";N;}i:18;O:8:"testcase":7:{s:5:"input";s:21:"
+100 100
+99 99 99 99
+";s:6:"output";s:10:"435489863
+";s:5:"imode";s:1:"0";s:5:"omode";s:1:"0";s:10:"time_limit";N;s:9:"mem_limit";N;s:6:"points";N;}i:19;O:8:"testcase":7:{s:5:"input";s:13:"
+4 4
+0 0 0 0
+";s:6:"output";s:3:"15
+";s:5:"imode";s:1:"0";s:5:"omode";s:1:"0";s:10:"time_limit";N;s:9:"mem_limit";N;s:6:"points";N;}i:20;O:8:"testcase":7:{s:5:"input";s:13:"
+5 5
+1 1 1 1
+";s:6:"output";s:3:"43
+";s:5:"imode";s:1:"0";s:5:"omode";s:1:"0";s:10:"time_limit";N;s:9:"mem_limit";N;s:6:"points";N;}i:21;O:8:"testcase":7:{s:5:"input";s:18:"
+15 100
+1 12 13 2
+";s:6:"output";s:10:"917463834
+";s:5:"imode";s:1:"0";s:5:"omode";s:1:"0";s:10:"time_limit";N;s:9:"mem_limit";N;s:6:"points";N;}i:22;O:8:"testcase":7:{s:5:"input";s:15:"
+100 0
+1 1 3 2
+";s:6:"output";s:2:"0
+";s:5:"imode";s:1:"0";s:5:"omode";s:1:"0";s:10:"time_limit";N;s:9:"mem_limit";N;s:6:"points";N;}}s:4:"body";s:2391:"<p>The war is here. The sceptics and pessimists had been predicting it all along. Skaarj, one of the smarter alien races we encountered in our inter-stellar exploration, has discarded their friendly pretences towards Earth and shown what they truly are... war-mongering scoundrels. What's worse, their millitary prowess is widely feared among the other alien races, leaving us without any allies in this inter-stellar war, the first of its kind in the history of mankind.</p>
+
+<p>Our strategists have determined that the Skaarj military, despite its high numbers, is no match for the advanced weapon technology that we possess. However, the IIA (Indian Intelligence Agency) has recently uncovered disturbing reports regarding a massive computer virus begin designed by Skaarj hackers to neutralize our navigation and weapon control systems. If this virus gets through our firewalls, humanity will be left defenseless, at the mercy of the Skaarj Invaders.</p>
+
+<p>Now intelligence reports have indicated that the enemy will be routing the virus packets through computer nodes all over the GCG (Galactic Computing Grid). This grid is organised in the form of a 2-dimensional matrix with equal number of rows and columns (say, <i>m</i>). The virus has been reported to jump between nodes in this grid in a manner identical to that of a Knight on a chess board. It also self-destructs after a certain number of jumps (say <i>n</i>). In other words, it can make maximum <i>n</i> moves.</p>
+
+<p>In order to give our security experts a fighting chance in holding up the firewalls, we need to calculate the total number of ways in which the virus can reach node Earth (with grid coordinates [<i>x2, y2</i>]) from the Skaarj home planet (grid coordinates [<i>x1, y1</i>]), given that it self-destructs after <i>n</i> jumps (hence in less than or equal to <I>n</I> steps).</p>
+
+<p>As the cryptanalyst of the IIA, your work is cut out for you. Godspeed coder, the future of humanity rests on your shoulders.</p>
+<P>You may suspect that since the virus can retraverse the same path multiple times, the number of ways increases exponentially with the number of steps. So your task is to display only the last 9 digits in the number (ans%1000000000). </P>
+<P>Note: Integer is by default a long integer and hence can accomodate numbers till 2*10^9. Beware of overflow. Do ans%1000000000 at every step.</P>
+";s:8:"examples";a:4:{i:0;s:180:"3X3 board, you start from (0,0) and have to reach (1,2). Following are the 4 ways: (0,0)->(1,2), (0,0)->(1,2)->(0,0)->(1,2), (0,0)->(1,2)->(2,0)->(1,2), (0,0)->(2,1)->(0,0)->(1,2)
+";i:1;s:89:"Same source and destination. Unlikely in our situation, but better to be safe than sorry!";i:2;s:130:"No way you can take a knight's jump on such a small board. Now you know how you can stop the virus, and where to place firewalls.
+";i:3;s:32:"Thats big. Beware of overflows.
+";}s:11:"constraints";a:2:{s:5:"INPUT";a:5:{i:0;s:72:"Line 1: m(number of rows and columns in grid) n(maximum number of jumps)";i:1;s:19:"Line 2: x1 y1 x2 y2";i:2;s:13:"1 <= m <= 100";i:3;s:13:"0 <= n <= 100";i:4;s:22:"0 <= x1,y1,x2,y2 <= 99";}s:6:"OUTPUT";a:1:{i:0;s:52:"Output the number of possible ways on a single line.";}}s:6:"parser";i:0;s:6:"inside";a:5:{i:0;N;i:1;s:7:"PROBLEM";i:2;s:8:"EXAMPLES";i:3;s:7:"EXAMPLE";i:4;s:6:"OUTPUT";}s:5:"depth";i:0;s:2:"id";s:1:"3";s:10:"error_func";s:5:"error";}

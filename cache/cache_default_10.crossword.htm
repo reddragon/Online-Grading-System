@@ -1,0 +1,59 @@
+                      1190203172<script type="text/javascript">var problemVersion = 7;</script><div id="problem_title">Problem: <b>crossword</b></div><div id="problem"><div id="problem_header"><b>Summary:</b> Crossword Scanning<br /><b>Weight:</b> 650<br /><b>Time limit:</b> 0.5 second(s)<br /><b>Memory limit:</b> 32 MB<br /><b>Test cases:</b> 12</div><div id="problem_body">
+<b>Description:</b><br /><div id="problem_body_text">
+Given a solved Crossword (a matrix of characters) of size <b>m</b> rows x <b>n</b> columns, where each character is either an lowercase alphabet or '*' (indicating non-character block), you have to print all the words used in the crossword. You know that all the words used are more than 1 character long. In a normal crossword if there is any consecutive characters horizontally or vertically, it is a <B>word</B> if it is not a substring of another word (longer in length) overlapping that word. You have to print only unique words in lexicographically sorted order.
+<BR /><BR />
+Clarified: Words can go only from left to right and from top to bottom in the crossword.</div></div>
+<div id="problem_constraints">
+<b>Formatting/Constraints:</b>
+<ul>
+<li><i>Input:</i>
+<ol>
+<li>Line 1: m n (1 <= m, n <= 50)</li>
+<li>Line 2..m+1: Strings of length n giving the contents of each row.</li>
+</ol>
+</li>
+<li><i>Output:</i>
+<ol>
+<li>List of words in lexicographically sorted order, one per line.</li>
+</ol>
+</li>
+</ul>
+</div>
+<div id="problem_examples"><b>Examples:</b>
+<ol>
+<li>
+<b>Input:</b> <pre>4 4
+abcd
+b**a
+c**b
+aaaa</pre>
+<b>Output:</b> <pre>aaaa
+abca
+abcd
+daba
+</pre>
+<b>Analysis:</b> <div class="analysis">
+
+Only four words in this crossword. Note that order of output is important.
+</div>
+</li>
+<li>
+<b>Input:</b> <pre>4 4
+abcd
+ef**
+gh**
+ij*k</pre>
+<b>Output:</b> <pre>abcd
+aegi
+bfhj
+ef
+gh
+ij
+</pre>
+<b>Analysis:</b> <div class="analysis">
+
+Note that a single character is not a word.
+</div>
+</li>
+</ol></div>
+</div>

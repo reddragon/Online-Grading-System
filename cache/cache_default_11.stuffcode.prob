@@ -1,0 +1,103 @@
+                      3554724512O:7:"problem":9:{s:5:"tests";a:28:{i:1;O:8:"testcase":7:{s:5:"input";s:28:"309070130105301801503011019
+";s:6:"output";s:12:"CIGMA ROCKS
+";s:5:"imode";s:1:"0";s:5:"omode";s:1:"0";s:10:"time_limit";N;s:9:"mem_limit";N;s:6:"points";N;}i:2;O:8:"testcase":7:{s:5:"input";s:12:"
+1001001010
+";s:6:"output";s:5:"JJAJ
+";s:5:"imode";s:1:"0";s:5:"omode";s:1:"0";s:10:"time_limit";N;s:9:"mem_limit";N;s:6:"points";N;}i:3;O:8:"testcase":7:{s:5:"input";s:16:"
+27028029030031
+";s:6:"output";s:6:"abcde
+";s:5:"imode";s:1:"0";s:5:"omode";s:1:"0";s:10:"time_limit";N;s:9:"mem_limit";N;s:6:"points";N;}i:4;O:8:"testcase":7:{s:5:"input";s:10:"
+10001001
+";s:6:"output";s:8:"Invalid
+";s:5:"imode";s:1:"0";s:5:"omode";s:1:"0";s:10:"time_limit";N;s:9:"mem_limit";N;s:6:"points";N;}i:5;O:8:"testcase":7:{s:5:"input";s:7:"
+10060
+";s:6:"output";s:8:"Invalid
+";s:5:"imode";s:1:"0";s:5:"omode";s:1:"0";s:10:"time_limit";N;s:9:"mem_limit";N;s:6:"points";N;}i:6;O:8:"testcase":7:{s:5:"input";s:27:"
+1010101010101010101010101
+";s:6:"output";s:14:"AAAAAAAAAAAAA
+";s:5:"imode";s:1:"0";s:5:"omode";s:1:"0";s:10:"time_limit";N;s:9:"mem_limit";N;s:6:"points";N;}i:7;O:8:"testcase":7:{s:5:"input";s:25:"
+27027027027027027027027
+";s:6:"output";s:9:"aaaaaaaa
+";s:5:"imode";s:1:"0";s:5:"omode";s:1:"0";s:10:"time_limit";N;s:9:"mem_limit";N;s:6:"points";N;}i:8;O:8:"testcase":7:{s:5:"input";s:27:"
+3030030300303003030030300
+";s:6:"output";s:8:"Invalid
+";s:5:"imode";s:1:"0";s:5:"omode";s:1:"0";s:10:"time_limit";N;s:9:"mem_limit";N;s:6:"points";N;}i:9;O:8:"testcase":7:{s:5:"input";s:18:"
+1000000000000001
+";s:6:"output";s:8:"Invalid
+";s:5:"imode";s:1:"0";s:5:"omode";s:1:"0";s:10:"time_limit";N;s:9:"mem_limit";N;s:6:"points";N;}i:10;O:8:"testcase":7:{s:5:"input";s:21:"
+1403501903401040020
+";s:6:"output";s:8:"NiShAnT
+";s:5:"imode";s:1:"0";s:5:"omode";s:1:"0";s:10:"time_limit";N;s:9:"mem_limit";N;s:6:"points";N;}i:11;O:8:"testcase":7:{s:5:"input";s:102:"
+1040030053046034035045053035045053046034031053038041040033031045046053045046027046031039031040046045
+";s:6:"output";s:35:"And this is the longest statements
+";s:5:"imode";s:1:"0";s:5:"omode";s:1:"0";s:10:"time_limit";N;s:9:"mem_limit";N;s:6:"points";N;}i:12;O:8:"testcase":7:{s:5:"input";s:5:"
+123
+";s:6:"output";s:8:"Invalid
+";s:5:"imode";s:1:"0";s:5:"omode";s:1:"0";s:10:"time_limit";N;s:9:"mem_limit";N;s:6:"points";N;}i:13;O:8:"testcase":7:{s:5:"input";s:6:"
+1023
+";s:6:"output";s:3:"AW
+";s:5:"imode";s:1:"0";s:5:"omode";s:1:"0";s:10:"time_limit";N;s:9:"mem_limit";N;s:6:"points";N;}i:14;O:8:"testcase":7:{s:5:"input";s:11:"
+110110101
+";s:6:"output";s:5:"KKAA
+";s:5:"imode";s:1:"0";s:5:"omode";s:1:"0";s:10:"time_limit";N;s:9:"mem_limit";N;s:6:"points";N;}i:15;O:8:"testcase":7:{s:5:"input";s:16:"
+20901401018025
+";s:6:"output";s:7:"BINARY
+";s:5:"imode";s:1:"0";s:5:"omode";s:1:"0";s:10:"time_limit";N;s:9:"mem_limit";N;s:6:"points";N;}i:16;O:8:"testcase":7:{s:5:"input";s:18:"
+1044035036035046
+";s:6:"output";s:7:"Arijit
+";s:5:"imode";s:1:"0";s:5:"omode";s:1:"0";s:10:"time_limit";N;s:9:"mem_limit";N;s:6:"points";N;}i:17;O:8:"testcase":7:{s:5:"input";s:24:"
+2004104203041030031044
+";s:6:"output";s:9:"TopCoder
+";s:5:"imode";s:1:"0";s:5:"omode";s:1:"0";s:10:"time_limit";N;s:9:"mem_limit";N;s:6:"points";N;}i:18;O:8:"testcase":7:{s:5:"input";s:21:"
+9040048027038035030
+";s:6:"output";s:8:"Invalid
+";s:5:"imode";s:1:"0";s:5:"omode";s:1:"0";s:10:"time_limit";N;s:9:"mem_limit";N;s:6:"points";N;}i:19;O:8:"testcase":7:{s:5:"input";s:22:"
+90040048027038035030
+";s:6:"output";s:8:"Invalid
+";s:5:"imode";s:1:"0";s:5:"omode";s:1:"0";s:10:"time_limit";N;s:9:"mem_limit";N;s:6:"points";N;}i:20;O:8:"testcase":7:{s:5:"input";s:63:"
+1504003803504003105307044027030035040033053019051045046031039
+";s:6:"output";s:22:"Online Grading System
+";s:5:"imode";s:1:"0";s:5:"omode";s:1:"0";s:10:"time_limit";N;s:9:"mem_limit";N;s:6:"points";N;}i:21;O:8:"testcase":7:{s:5:"input";s:55:"
+46034035045053035045053046041041053045035039042038031
+";s:6:"output";s:19:"this is too simple
+";s:5:"imode";s:1:"0";s:5:"omode";s:1:"0";s:10:"time_limit";N;s:9:"mem_limit";N;s:6:"points";N;}i:22;O:8:"testcase":7:{s:5:"input";s:22:"
+46031045046035040033
+";s:6:"output";s:8:"testing
+";s:5:"imode";s:1:"0";s:5:"omode";s:1:"0";s:10:"time_limit";N;s:9:"mem_limit";N;s:6:"points";N;}i:23;O:8:"testcase":7:{s:5:"input";s:18:"
+1002003004005006
+";s:6:"output";s:7:"JTdnxF
+";s:5:"imode";s:1:"0";s:5:"omode";s:1:"0";s:10:"time_limit";N;s:9:"mem_limit";N;s:6:"points";N;}i:24;O:8:"testcase":7:{s:5:"input";s:21:"
+1002003004005006007
+";s:6:"output";s:8:"Invalid
+";s:5:"imode";s:1:"0";s:5:"omode";s:1:"0";s:10:"time_limit";N;s:9:"mem_limit";N;s:6:"points";N;}i:25;O:8:"testcase":7:{s:5:"input";s:22:"
+10203040506070809010
+";s:6:"output";s:11:"ABCDEFGHIJ
+";s:5:"imode";s:1:"0";s:5:"omode";s:1:"0";s:10:"time_limit";N;s:9:"mem_limit";N;s:6:"points";N;}i:26;O:8:"testcase":7:{s:5:"input";s:12:"
+4294967297
+";s:6:"output";s:8:"Invalid
+";s:5:"imode";s:1:"0";s:5:"omode";s:1:"0";s:10:"time_limit";N;s:9:"mem_limit";N;s:6:"points";N;}i:27;O:8:"testcase":7:{s:5:"input";s:12:"
+2147483648
+";s:6:"output";s:8:"Invalid
+";s:5:"imode";s:1:"0";s:5:"omode";s:1:"0";s:10:"time_limit";N;s:9:"mem_limit";N;s:6:"points";N;}i:28;O:8:"testcase":7:{s:5:"input";s:12:"
+4294967296
+";s:6:"output";s:8:"Invalid
+";s:5:"imode";s:1:"0";s:5:"omode";s:1:"0";s:10:"time_limit";N;s:9:"mem_limit";N;s:6:"points";N;}}s:4:"body";s:537:"    
+<P>A given message is encrypted as follows. Every character is encoded as a number. If the character is an uppercase alphabet then the number is 1 for 'A', 2 for 'B' .. 26 for 'Z'.. if the alphabet is lowercase then the number is 27 for 'a', 28 for 'b'... 52 for 'z'. A space is encoded as 53. In between every encoded character a number 0 is inserted.</P>
+<P>Your task is to decode such a string. There is no added '0' at the end of the input. If the input format is incorrect or cannot be decoded, then output only "Invalid".</P>
+";s:8:"examples";a:4:{i:1;s:32:"
+    Bet you agree to that!
+    ";i:2;s:74:"
+    Tokens are 10, 10, 1, 10 (since there is no added 0 at the end).
+    ";i:4;s:185:"
+    The first code can't be 10, because that would leave two zeroes until next character. And it can't be 100 either, since that doesn't match any character. Thus code is invalid.
+    ";i:5;s:97:"
+    Last token cannot be 60. Neither can it be 6 as a 0 can't be added at the end of input.
+    ";}s:11:"constraints";a:2:{s:5:"INPUT";a:3:{i:0;s:48:"
+        Line1: String to be decrypted.
+        ";i:1;s:37:" 
+        1 <= length <= 100
+        ";i:2;s:71:"
+        All characters will be between '0' and '9' inclusive.
+        ";}s:6:"OUTPUT";a:1:{i:0;s:86:"
+        Line1: The decrypted string, or just "Invalid" (without the quotes).
+        ";}}s:6:"parser";i:0;s:6:"inside";a:5:{i:0;N;i:1;s:7:"PROBLEM";i:2;s:8:"EXAMPLES";i:3;s:7:"EXAMPLE";i:4;s:6:"OUTPUT";}s:5:"depth";i:0;s:2:"id";s:1:"5";s:10:"error_func";s:5:"error";}

@@ -1,0 +1,43 @@
+                      3880115541O:7:"problem":9:{s:5:"tests";a:16:{i:1;O:8:"testcase":7:{s:5:"input";s:7:"1 1 10
+";s:6:"output";s:27:"<FLOAT>10.999990250</FLOAT>";s:5:"imode";s:1:"0";s:5:"omode";s:1:"0";s:10:"time_limit";N;s:9:"mem_limit";N;s:6:"points";N;}i:2;O:8:"testcase":7:{s:5:"input";s:7:"
+1 1 1
+";s:6:"output";s:26:"<FLOAT>0.510973429</FLOAT>";s:5:"imode";s:1:"0";s:5:"omode";s:1:"0";s:10:"time_limit";N;s:9:"mem_limit";N;s:6:"points";N;}i:3;O:8:"testcase":7:{s:5:"input";s:11:"
+100 100 1
+";s:6:"output";s:26:"<FLOAT>0.005000010</FLOAT>";s:5:"imode";s:1:"0";s:5:"omode";s:1:"0";s:10:"time_limit";N;s:9:"mem_limit";N;s:6:"points";N;}i:4;O:8:"testcase":7:{s:5:"input";s:8:"
+1 2 10
+";s:6:"output";s:26:"<FLOAT>8.031391955</FLOAT>";s:5:"imode";s:1:"0";s:5:"omode";s:1:"0";s:10:"time_limit";N;s:9:"mem_limit";N;s:6:"points";N;}i:5;O:8:"testcase":7:{s:5:"input";s:9:"
+1 3 100
+";s:6:"output";s:28:"<FLOAT>100.397929633</FLOAT>";s:5:"imode";s:1:"0";s:5:"omode";s:1:"0";s:10:"time_limit";N;s:9:"mem_limit";N;s:6:"points";N;}i:6;O:8:"testcase":7:{s:5:"input";s:22:"
+1 1000000 1000000000
+";s:6:"output";s:34:"<FLOAT>999000000.634709954</FLOAT>";s:5:"imode";s:1:"0";s:5:"omode";s:1:"0";s:10:"time_limit";N;s:9:"mem_limit";N;s:6:"points";N;}i:7;O:8:"testcase":7:{s:5:"input";s:20:"
+100 101 1000000000
+";s:6:"output";s:32:"<FLOAT>9999998.999337740</FLOAT>";s:5:"imode";s:1:"0";s:5:"omode";s:1:"0";s:10:"time_limit";N;s:9:"mem_limit";N;s:6:"points";N;}i:8;O:8:"testcase":7:{s:5:"input";s:17:"
+100 111 1000000
+";s:6:"output";s:30:"<FLOAT>10001.094860002</FLOAT>";s:5:"imode";s:1:"0";s:5:"omode";s:1:"0";s:10:"time_limit";N;s:9:"mem_limit";N;s:6:"points";N;}i:9;O:8:"testcase":7:{s:5:"input";s:7:"
+1 7 9
+";s:6:"output";s:26:"<FLOAT>6.628770261</FLOAT>";s:5:"imode";s:1:"0";s:5:"omode";s:1:"0";s:10:"time_limit";N;s:9:"mem_limit";N;s:6:"points";N;}i:10;O:8:"testcase":7:{s:5:"input";s:7:"
+2 4 8
+";s:6:"output";s:26:"<FLOAT>5.462807310</FLOAT>";s:5:"imode";s:1:"0";s:5:"omode";s:1:"0";s:10:"time_limit";N;s:9:"mem_limit";N;s:6:"points";N;}i:11;O:8:"testcase":7:{s:5:"input";s:7:"
+2 6 9
+";s:6:"output";s:26:"<FLOAT>1.506247631</FLOAT>";s:5:"imode";s:1:"0";s:5:"omode";s:1:"0";s:10:"time_limit";N;s:9:"mem_limit";N;s:6:"points";N;}i:12;O:8:"testcase":7:{s:5:"input";s:9:"
+7 11 13
+";s:6:"output";s:26:"<FLOAT>0.766814878</FLOAT>";s:5:"imode";s:1:"0";s:5:"omode";s:1:"0";s:10:"time_limit";N;s:9:"mem_limit";N;s:6:"points";N;}i:13;O:8:"testcase":7:{s:5:"input";s:13:"
+101 111 121
+";s:6:"output";s:26:"<FLOAT>0.588209560</FLOAT>";s:5:"imode";s:1:"0";s:5:"omode";s:1:"0";s:10:"time_limit";N;s:9:"mem_limit";N;s:6:"points";N;}i:14;O:8:"testcase":7:{s:5:"input";s:7:"
+1 2 0
+";s:6:"output";s:16:"<FLOAT>0</FLOAT>";s:5:"imode";s:1:"0";s:5:"omode";s:1:"0";s:10:"time_limit";N;s:9:"mem_limit";N;s:6:"points";N;}i:15;O:8:"testcase":7:{s:5:"input";s:19:"
+1000000 1000000 0
+";s:6:"output";s:26:"<FLOAT>0.000000000</FLOAT>";s:5:"imode";s:1:"0";s:5:"omode";s:1:"0";s:10:"time_limit";N;s:9:"mem_limit";N;s:6:"points";N;}i:16;O:8:"testcase":7:{s:5:"input";s:28:"
+1000000 1000000 1000000000
+";s:6:"output";s:28:"<FLOAT>999.523328412</FLOAT>";s:5:"imode";s:1:"0";s:5:"omode";s:1:"0";s:10:"time_limit";N;s:9:"mem_limit";N;s:6:"points";N;}}s:4:"body";s:893:"<p>Given an equation of the form <b>y = Ax + Bsin(x)</b>, and the values of A, B and y such that A<=B find the value of smallest non negative value of x, satisfying the equation.</p>
+
+<p> The output should be within 1e-8 absolute or relative error. To achieve this accuracy display upto 9 decimal places. Use double instead of float, and you may use <b>printf("%.9lf", ans)</b> in C/C++ to display the final answer.</p>
+
+<P><B>Note:</B> Absolute error is the difference of your answer to the expected answer. Relative error is (Absolute error)/(correct answer). Make sure that either one of them is less than 1e-8 for all the answers. Your answer will not be compared character by character but instead as a floating point value. So "0" or "0.0" or "0.000000000" or "0.000000009" (absolute error is less than 1e-8) are equivalent.</P>
+
+<P><B>Clarification: </B> x in sin(x) is in radians.</P>
+";s:8:"examples";a:3:{i:1;s:83:"(10.99999025) + sin(10.99999025) gives 10 (accurate to more than 8 decimal places).";i:14;s:116:"
+   	Even printing 0 instead of 0.000000000 will do, since the output is still within 1e-8 of the actual value.
+    ";i:4;s:79:"
+Make sure your answer has an error less than 1e-8 relative to the answer.
+    ";}s:11:"constraints";a:2:{s:5:"INPUT";a:4:{i:0;s:33:"Line 1: A B y (all are integers) ";i:1;s:17:"1 <= B <= 1000000";i:2;s:11:"1 <= A <= B";i:3;s:20:"0 <= y <= 1000000000";}s:6:"OUTPUT";a:1:{i:0;s:9:"Line 1: x";}}s:6:"parser";i:0;s:6:"inside";a:5:{i:0;N;i:1;s:7:"PROBLEM";i:2;s:8:"EXAMPLES";i:3;s:7:"EXAMPLE";i:4;s:6:"OUTPUT";}s:5:"depth";i:0;s:2:"id";s:1:"4";s:10:"error_func";s:5:"error";}

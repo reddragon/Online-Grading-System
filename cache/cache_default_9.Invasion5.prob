@@ -1,0 +1,103 @@
+                      3217963618O:7:"problem":9:{s:5:"tests";a:23:{i:1;O:8:"testcase":7:{s:5:"input";s:4:"1 5
+";s:6:"output";s:4:"2
+3
+";s:5:"imode";s:1:"0";s:5:"omode";s:1:"0";s:10:"time_limit";N;s:9:"mem_limit";N;s:6:"points";N;}i:2;O:8:"testcase":7:{s:5:"input";s:6:"
+1 62
+";s:6:"output";s:5:"5
+31
+";s:5:"imode";s:1:"0";s:5:"omode";s:1:"0";s:10:"time_limit";N;s:9:"mem_limit";N;s:6:"points";N;}i:3;O:8:"testcase":7:{s:5:"input";s:7:"
+10 57
+";s:6:"output";s:5:"2
+54
+";s:5:"imode";s:1:"0";s:5:"omode";s:1:"0";s:10:"time_limit";N;s:9:"mem_limit";N;s:6:"points";N;}i:4;O:8:"testcase":7:{s:5:"input";s:22:"
+999999999 1000000000
+";s:6:"output";s:12:"1
+999999999
+";s:5:"imode";s:1:"0";s:5:"omode";s:1:"0";s:10:"time_limit";N;s:9:"mem_limit";N;s:6:"points";N;}i:5;O:8:"testcase":7:{s:5:"input";s:5:"
+1 1
+";s:6:"output";s:4:"1
+1
+";s:5:"imode";s:1:"0";s:5:"omode";s:1:"0";s:10:"time_limit";N;s:9:"mem_limit";N;s:6:"points";N;}i:6;O:8:"testcase":7:{s:5:"input";s:5:"
+2 1
+";s:6:"output";s:4:"0
+1
+";s:5:"imode";s:1:"0";s:5:"omode";s:1:"0";s:10:"time_limit";N;s:9:"mem_limit";N;s:6:"points";N;}i:7;O:8:"testcase":7:{s:5:"input";s:5:"
+1 2
+";s:6:"output";s:4:"1
+1
+";s:5:"imode";s:1:"0";s:5:"omode";s:1:"0";s:10:"time_limit";N;s:9:"mem_limit";N;s:6:"points";N;}i:8;O:8:"testcase":7:{s:5:"input";s:9:"
+112 567
+";s:6:"output";s:6:"2
+564
+";s:5:"imode";s:1:"0";s:5:"omode";s:1:"0";s:10:"time_limit";N;s:9:"mem_limit";N;s:6:"points";N;}i:9;O:8:"testcase":7:{s:5:"input";s:13:"
+4 987364876
+";s:6:"output";s:13:"27
+939524092
+";s:5:"imode";s:1:"0";s:5:"omode";s:1:"0";s:10:"time_limit";N;s:9:"mem_limit";N;s:6:"points";N;}i:10;O:8:"testcase":7:{s:5:"input";s:14:"
+1 1000000000
+";s:6:"output";s:13:"29
+536870911
+";s:5:"imode";s:1:"0";s:5:"omode";s:1:"0";s:10:"time_limit";N;s:9:"mem_limit";N;s:6:"points";N;}i:11;O:8:"testcase":7:{s:5:"input";s:14:"
+7 1000000000
+";s:6:"output";s:13:"27
+939524089
+";s:5:"imode";s:1:"0";s:5:"omode";s:1:"0";s:10:"time_limit";N;s:9:"mem_limit";N;s:6:"points";N;}i:12;O:8:"testcase":7:{s:5:"input";s:16:"
+509 1000000000
+";s:6:"output";s:13:"20
+999292419
+";s:5:"imode";s:1:"0";s:5:"omode";s:1:"0";s:10:"time_limit";N;s:9:"mem_limit";N;s:6:"points";N;}i:13;O:8:"testcase":7:{s:5:"input";s:22:"
+1000000000 999999999
+";s:6:"output";s:12:"0
+999999999
+";s:5:"imode";s:1:"0";s:5:"omode";s:1:"0";s:10:"time_limit";N;s:9:"mem_limit";N;s:6:"points";N;}i:14;O:8:"testcase":7:{s:5:"input";s:17:"
+1000 1000000000
+";s:6:"output";s:13:"19
+999816216
+";s:5:"imode";s:1:"0";s:5:"omode";s:1:"0";s:10:"time_limit";N;s:9:"mem_limit";N;s:6:"points";N;}i:15;O:8:"testcase":7:{s:5:"input";s:17:"
+1001 1000000000
+";s:6:"output";s:13:"19
+999816215
+";s:5:"imode";s:1:"0";s:5:"omode";s:1:"0";s:10:"time_limit";N;s:9:"mem_limit";N;s:6:"points";N;}i:16;O:8:"testcase":7:{s:5:"input";s:12:"
+123 456789
+";s:6:"output";s:10:"11
+456581
+";s:5:"imode";s:1:"0";s:5:"omode";s:1:"0";s:10:"time_limit";N;s:9:"mem_limit";N;s:6:"points";N;}i:17;O:8:"testcase":7:{s:5:"input";s:13:"
+9 999999999
+";s:6:"output";s:13:"26
+939524087
+";s:5:"imode";s:1:"0";s:5:"omode";s:1:"0";s:10:"time_limit";N;s:9:"mem_limit";N;s:6:"points";N;}i:18;O:8:"testcase":7:{s:5:"input";s:7:"
+1 127
+";s:6:"output";s:6:"7
+127
+";s:5:"imode";s:1:"0";s:5:"omode";s:1:"0";s:10:"time_limit";N;s:9:"mem_limit";N;s:6:"points";N;}i:19;O:8:"testcase":7:{s:5:"input";s:10:"
+111111 1
+";s:6:"output";s:4:"0
+1
+";s:5:"imode";s:1:"0";s:5:"omode";s:1:"0";s:10:"time_limit";N;s:9:"mem_limit";N;s:6:"points";N;}i:20;O:8:"testcase":7:{s:5:"input";s:17:"
+1000000000 1000
+";s:6:"output";s:7:"0
+1000
+";s:5:"imode";s:1:"0";s:5:"omode";s:1:"0";s:10:"time_limit";N;s:9:"mem_limit";N;s:6:"points";N;}i:21;O:8:"testcase":7:{s:5:"input";s:15:"
+12398 1291247
+";s:6:"output";s:10:"6
+1291218
+";s:5:"imode";s:1:"0";s:5:"omode";s:1:"0";s:10:"time_limit";N;s:9:"mem_limit";N;s:6:"points";N;}i:22;O:8:"testcase":7:{s:5:"input";s:13:"
+450 1999999
+";s:6:"output";s:11:"12
+1998398
+";s:5:"imode";s:1:"0";s:5:"omode";s:1:"0";s:10:"time_limit";N;s:9:"mem_limit";N;s:6:"points";N;}i:23;O:8:"testcase":7:{s:5:"input";s:11:"
+20 199898
+";s:6:"output";s:10:"13
+196588
+";s:5:"imode";s:1:"0";s:5:"omode";s:1:"0";s:10:"time_limit";N;s:9:"mem_limit";N;s:6:"points";N;}}s:4:"body";s:2326:"<p>Following the recent buildup of tensions between the United Nations of Earth and some alien empires, the need for dedicated and capable cryptanalysts has increased manifold, their work ranging from ensuring the security of our trans-galactic communication lines to intercepting and decoding enemy communications. In order to keep its cryptanalysts motivated, the IIA (Indian Intelligence Agency, the premier private security and intelligence provider to a number of Terran governments), has come up with a novel method of awarding scores for every task completed. Also based on the number of tasks completed, cryptanalysts are classified into levels -- counting up from level 0 (lowest).</p>
+
+<p>The level to which a cryptanalyst belongs dictates the number of score points he/she gets for each task completed. At level 0, points for each task is just +1. At each subsequent level, the number of points awarded for each task doubles. So it will be +2 for level 1, +4 for level 2, and so on. Thus, the points for completing task in level k would be 2^k.</p>
+
+<p>A certain number of tasks, say <b>n</b>, must be completed in the current level to move on to the next level. Since jobs assigned to each can be different on the scale of difficulty, this number <b>n</b> may vary for each individual.</p>
+
+<p>Being a talented and highly competitive IIA cryptanalyst yourself, you would naturally like to compare your scores with those of your colleagues. However you've discovered that they have a bad habit of boasting about their scores, and since their actual scores are private between them and their superiors, you've no way of verifying their claimed scores.</p>
+
+<p>To solve this dilemma, you decide to write a program to check the correctness of other people's claimed scores, because you realize that some scores aren't possible. Also assuming that people wouldn't claim to have a score lower than what they actually do, you make your program print the highest score <b>s</b> <= <b>x</b> actually possible, given that a person claims a score of <b>x</b>, and has <b>n</b> as the number of tasks per level (as explained above). Also print the level <b>z</b> that this person would belong to if he/she had that score (of <b>s</b>).</p>
+
+<P>Note: A long integer can only hold values between -2147483648 and +2147483647.</P>";s:8:"examples";a:2:{i:1;s:170:"With n=1, a person will have score=1, level=1 after first task; score=3,level=2 after second task; score=7,level=3 after third task. So score <= 5 is 3 for which level=2.";i:3;s:167:"Scores after each completed task will be 1,2,3,...,8,9,10,12,14,16,...,26,28,30,34,38,42,44,46,50,54,58... thus largest possible score <= 57 is 54, with a level of 2.
+";}s:11:"constraints";a:2:{s:5:"INPUT";a:2:{i:0;s:24:"Line1: <b>n</b> <b>x</b>";i:1;s:44:"0 < n <= 1000,000,000 0 <= x <= 1000,000,000";}s:6:"OUTPUT";a:2:{i:0;s:15:"Line1: <b>z</b>";i:1;s:15:"Line2: <b>s</b>";}}s:6:"parser";i:0;s:6:"inside";a:5:{i:0;N;i:1;s:7:"PROBLEM";i:2;s:8:"EXAMPLES";i:3;s:7:"EXAMPLE";i:4;s:6:"OUTPUT";}s:5:"depth";i:0;s:2:"id";s:1:"3";s:10:"error_func";s:5:"error";}

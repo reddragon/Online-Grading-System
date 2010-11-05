@@ -1,0 +1,90 @@
+                       409283986O:7:"problem":9:{s:5:"tests";a:12:{i:1;O:8:"testcase":7:{s:5:"input";s:24:"4 4
+abcd
+b**a
+c**b
+aaaa
+";s:6:"output";s:20:"aaaa
+abca
+abcd
+daba
+";s:5:"imode";s:1:"0";s:5:"omode";s:1:"0";s:10:"time_limit";N;s:9:"mem_limit";N;s:6:"points";N;}i:2;O:8:"testcase":7:{s:5:"input";s:25:"
+4 4
+abcd
+efgh
+ijkl
+mnop
+";s:6:"output";s:40:"abcd
+aeim
+bfjn
+cgko
+dhlp
+efgh
+ijkl
+mnop
+";s:5:"imode";s:1:"0";s:5:"omode";s:1:"0";s:10:"time_limit";N;s:9:"mem_limit";N;s:6:"points";N;}i:3;O:8:"testcase":7:{s:5:"input";s:7:"
+1 1
+a
+";s:6:"output";N;s:5:"imode";s:1:"0";s:5:"omode";s:1:"0";s:10:"time_limit";N;s:9:"mem_limit";N;s:6:"points";N;}i:4;O:8:"testcase":7:{s:5:"input";s:25:"
+4 4
+abcd
+ef**
+gh**
+ij*k
+";s:6:"output";s:24:"abcd
+aegi
+bfhj
+ef
+gh
+ij
+";s:5:"imode";s:1:"0";s:5:"omode";s:1:"0";s:10:"time_limit";N;s:9:"mem_limit";N;s:6:"points";N;}i:5;O:8:"testcase":7:{s:5:"input";s:95:"
+9 9
+abcd*efgh
+ij*klm***
+o**p**qr*
+*st***u**
+v*w****xy
+z*abcde**
+**f*g*h**
+**i***j**
+**k****lm
+";s:6:"output";s:69:"abcd
+abcde
+aio
+bj
+cg
+dkp
+efgh
+ehj
+em
+ij
+klm
+lm
+qr
+qu
+st
+twafik
+vz
+xy
+";s:5:"imode";s:1:"0";s:5:"omode";s:1:"0";s:10:"time_limit";N;s:9:"mem_limit";N;s:6:"points";N;}i:6;O:8:"testcase":7:{s:5:"input";s:11:"
+2 2
+ab
+c*
+";s:6:"output";s:6:"ab
+ac
+";s:5:"imode";s:1:"0";s:5:"omode";s:1:"0";s:10:"time_limit";N;s:9:"mem_limit";N;s:6:"points";N;}i:7;O:8:"testcase":7:{s:5:"input";s:11:"
+2 2
+a*
+bc
+";s:6:"output";s:6:"ab
+bc
+";s:5:"imode";s:1:"0";s:5:"omode";s:1:"0";s:10:"time_limit";N;s:9:"mem_limit";N;s:6:"points";N;}i:8;O:8:"testcase":7:{s:5:"input";s:11:"
+2 2
+a*
+*b
+";s:6:"output";N;s:5:"imode";s:1:"0";s:5:"omode";s:1:"0";s:10:"time_limit";N;s:9:"mem_limit";N;s:6:"points";N;}i:9;O:8:"testcase":7:{s:5:"input";s:20:"cigma/crossword.in.9";s:6:"output";s:21:"cigma/crossword.out.9";s:5:"imode";s:1:"1";s:5:"omode";s:1:"1";s:10:"time_limit";N;s:9:"mem_limit";N;s:6:"points";N;}i:10;O:8:"testcase":7:{s:5:"input";s:21:"cigma/crossword.in.10";s:6:"output";s:22:"cigma/crossword.out.10";s:5:"imode";s:1:"1";s:5:"omode";s:1:"1";s:10:"time_limit";N;s:9:"mem_limit";N;s:6:"points";N;}i:11;O:8:"testcase":7:{s:5:"input";s:21:"cigma/crossword.in.11";s:6:"output";s:22:"cigma/crossword.out.11";s:5:"imode";s:1:"1";s:5:"omode";s:1:"1";s:10:"time_limit";N;s:9:"mem_limit";N;s:6:"points";N;}i:12;O:8:"testcase":7:{s:5:"input";s:21:"cigma/crossword.in.12";s:6:"output";s:22:"cigma/crossword.out.12";s:5:"imode";s:1:"1";s:5:"omode";s:1:"1";s:10:"time_limit";N;s:9:"mem_limit";N;s:6:"points";N;}}s:4:"body";s:670:"Given a solved Crossword (a matrix of characters) of size <b>m</b> rows x <b>n</b> columns, where each character is either an lowercase alphabet or '*' (indicating non-character block), you have to print all the words used in the crossword. You know that all the words used are more than 1 character long. In a normal crossword if there is any consecutive characters horizontally or vertically, it is a <B>word</B> if it is not a substring of another word (longer in length) overlapping that word. You have to print only unique words in lexicographically sorted order.
+<BR /><BR />
+Clarified: Words can go only from left to right and from top to bottom in the crossword.";s:8:"examples";a:2:{i:1;s:76:"
+Only four words in this crossword. Note that order of output is important.
+";i:4;s:45:"
+Note that a single character is not a word.
+";}s:11:"constraints";a:2:{s:5:"INPUT";a:2:{i:0;s:29:"Line 1: m n (1 <= m, n <= 50)";i:1;s:65:"Line 2..m+1: Strings of length n giving the contents of each row.";}s:6:"OUTPUT";a:1:{i:0;s:62:"List of words in lexicographically sorted order, one per line.";}}s:6:"parser";i:0;s:6:"inside";a:5:{i:0;N;i:1;s:7:"PROBLEM";i:2;s:8:"EXAMPLES";i:3;s:7:"EXAMPLE";i:4;s:6:"OUTPUT";}s:5:"depth";i:0;s:2:"id";s:1:"4";s:10:"error_func";s:5:"error";}

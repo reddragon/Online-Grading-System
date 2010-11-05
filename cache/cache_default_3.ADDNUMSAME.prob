@@ -1,0 +1,16 @@
+                     -1092413875O:7:"Problem":9:{s:5:"tests";a:2:{i:1;O:8:"TestCase":7:{s:5:"input";s:17:"
+1
+2
+            ";s:6:"output";s:1:"3";s:5:"imode";s:1:"0";s:5:"omode";s:1:"0";s:10:"time_limit";N;s:9:"mem_limit";N;s:6:"points";N;}i:2;O:8:"TestCase":7:{s:5:"input";s:4:"
+3
+7";s:6:"output";s:2:"10";s:5:"imode";s:1:"0";s:5:"omode";s:1:"0";s:10:"time_limit";N;s:9:"mem_limit";N;s:6:"points";N;}}s:4:"body";s:39:"
+        Add two numbers, A and B.
+    ";s:8:"examples";a:1:{i:1;s:9:"
+Easy...
+";}s:11:"constraints";a:2:{s:5:"INPUT";a:2:{i:0;s:60:"
+First line would contain A. A would lie between 0 and 10^9
+";i:1;s:61:"
+Second line would contain B. B would lie between 0 and 10^9
+";}s:6:"OUTPUT";a:1:{i:0;s:41:"
+                Output A+B.
+            ";}}s:6:"parser";i:0;s:6:"inside";a:5:{i:0;N;i:1;s:7:"PROBLEM";i:2;s:8:"EXAMPLES";i:3;s:7:"EXAMPLE";i:4;s:6:"OUTPUT";}s:5:"depth";i:0;s:2:"id";s:1:"1";s:10:"error_func";s:5:"error";}

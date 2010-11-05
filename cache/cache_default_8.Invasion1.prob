@@ -1,0 +1,137 @@
+                       362217020O:7:"problem":9:{s:5:"tests";a:10:{i:0;O:8:"testcase":7:{s:5:"input";s:50:"
+bumjel
+5
+innovation
+umbjel
+jumble
+aliens
+message
+";s:6:"output";s:8:"
+jumble
+";s:5:"imode";s:1:"0";s:5:"omode";s:1:"0";s:10:"time_limit";N;s:9:"mem_limit";N;s:6:"points";N;}i:1;O:8:"testcase":7:{s:5:"input";s:45:"
+lspime
+5
+sspimel
+sssssss
+difficult
+a
+sample
+";s:6:"output";s:8:"
+lspime
+";s:5:"imode";s:1:"0";s:5:"omode";s:1:"0";s:10:"time_limit";N;s:9:"mem_limit";N;s:6:"points";N;}i:10;O:8:"testcase":7:{s:5:"input";s:104:"abcdefgh
+10
+hgfedcba
+hfgdebca
+bcdefgha
+cdefghab
+aabcdefgh
+abcdefghi
+a
+bbcdefgh
+abcdfgh
+aabbccddeeffgghh
+";s:6:"output";s:9:"bcdefgha
+";s:5:"imode";s:1:"0";s:5:"omode";s:1:"0";s:10:"time_limit";N;s:9:"mem_limit";N;s:6:"points";N;}i:11;O:8:"testcase":7:{s:5:"input";s:69:"
+aaaaaa
+10
+a
+aa
+aaa
+aaaa
+aaaaa
+aaaaaa
+aaaaaaa
+aaaaaaaa
+aaaaab
+abbbbb
+";s:6:"output";s:7:"aaaaaa
+";s:5:"imode";s:1:"0";s:5:"omode";s:1:"0";s:10:"time_limit";N;s:9:"mem_limit";N;s:6:"points";N;}i:12;O:8:"testcase":7:{s:5:"input";s:64:"
+a
+10
+aa
+aaa
+aaaa
+aaaaa
+aaaaaa
+aaaaaaa
+aaaaaaaa
+aaaaab
+abbbbb
+b
+";s:6:"output";s:2:"a
+";s:5:"imode";s:1:"0";s:5:"omode";s:1:"0";s:10:"time_limit";N;s:9:"mem_limit";N;s:6:"points";N;}i:13;O:8:"testcase":7:{s:5:"input";s:95:"
+someword
+10
+mosewor
+mossewor
+mosdewor
+omsedro
+omsedrwo
+oomsedrwo
+something
+some
+word
+superman
+";s:6:"output";s:9:"mosdewor
+";s:5:"imode";s:1:"0";s:5:"omode";s:1:"0";s:10:"time_limit";N;s:9:"mem_limit";N;s:6:"points";N;}i:14;O:8:"testcase":7:{s:5:"input";s:54:"
+zzaa
+10
+aaz
+aaaz
+aazz
+zzaa
+aaaazzz
+aaz
+az
+za
+fail
+ok
+";s:6:"output";s:5:"aazz
+";s:5:"imode";s:1:"0";s:5:"omode";s:1:"0";s:10:"time_limit";N;s:9:"mem_limit";N;s:6:"points";N;}i:15;O:8:"testcase":7:{s:5:"input";s:15:"
+zebra
+1
+zebra
+";s:6:"output";s:6:"zebra
+";s:5:"imode";s:1:"0";s:5:"omode";s:1:"0";s:10:"time_limit";N;s:9:"mem_limit";N;s:6:"points";N;}i:16;O:8:"testcase":7:{s:5:"input";s:19:"
+full
+2
+full
+fully
+";s:6:"output";s:5:"full
+";s:5:"imode";s:1:"0";s:5:"omode";s:1:"0";s:10:"time_limit";N;s:9:"mem_limit";N;s:6:"points";N;}i:17;O:8:"testcase":7:{s:5:"input";s:120:"
+thisisabigsentence
+5
+thisisbigsentencea
+sentenceisbigathis
+isbigsentencethisa
+bigissentenceathis
+athisisbiggersentence
+";s:6:"output";s:19:"bigissentenceathis
+";s:5:"imode";s:1:"0";s:5:"omode";s:1:"0";s:10:"time_limit";N;s:9:"mem_limit";N;s:6:"points";N;}}s:4:"body";s:1594:"
+<P>
+Its 2100AD. Earth has developed friendly relationships with many alien communities. Inspite of depletion of various natural resources on Earth, this planet still stands on the top of the table as far as the natural resources are concerned. This inevitable asks for jealousy among some of the fellow alien communities.
+</P>
+<P>
+You are the cryptanalyst of one of the most powerful and fully equiped intelligence agency, IIA (Indian Intelligence Agency) on Earth. Your task is to intercept and decode any interplanetary messages, and detect any anti-Earth strategies planned by the fellow intelligent species.
+</P>
+<P>
+The available technology can translate any Alien language. But recently some of the Aliens have learnt some encryption techniques (very basic though). You go through a recently intercepted stream of encrypted data. Putting a slight stress on your advanced human brain, you take no time to realise that,
+<BR />1) The words are simple permutations of the characters of the orginal words, 
+<BR />2) In case there are multiple possibilities of decoding the encrypted word, then the word that comes first in the dictionary is the decoded word.
+</P>
+<P>
+Your task is to quickly write a program and equip your system to detect all such encoded words. To do this you will be given a list of words in the dictionary, and the Encoded word. You have to find the actual word in the dictionary that when Jumbled up gives this encrypted input. Incase of tie return the lexicographically first word. Incase no word in the dictionary matches the input, return the same input string.
+</P>
+";s:8:"examples";a:2:{i:0;s:106:"
+2 words match the input string, 'umbjel' and 'jumble'. 'jumble' comes lexicographically before 'umbjel'.
+";i:1;s:35:"
+No word matches the input string.
+";}s:11:"constraints";a:2:{s:5:"INPUT";a:3:{i:0;s:142:"
+Line 1 gives the encrypted word eWord consisting of only lower case alphabet a-z. eWord will be between 1-50 characters inclusive in length.
+";i:1;s:104:"
+Line 2 gives an integer n, the number of dictionary words to follow. n will be between 1-50 inclusive.
+";i:2;s:147:"
+Line 3 - n+2 gives n dictionary words, 1 on each line consisting of only lowercase alphabet. Each word will be between 1-50 characters in length.
+";}s:6:"OUTPUT";a:1:{i:0;s:37:"
+Output the Decrypted word on 1 line
+";}}s:6:"parser";i:0;s:6:"inside";a:5:{i:0;N;i:1;s:7:"PROBLEM";i:2;s:8:"EXAMPLES";i:3;s:7:"EXAMPLE";i:4;s:6:"OUTPUT";}s:5:"depth";i:0;s:2:"id";s:1:"1";s:10:"error_func";s:5:"error";}

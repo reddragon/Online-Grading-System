@@ -1,0 +1,79 @@
+                      2578747721<script type="text/javascript">var problemVersion = 6;</script><div id="problem_title">Problem: <b>Invasion1</b></div><div id="problem"><div id="problem_header"><b>Summary:</b> Jumbled Up<br /><b>Weight:</b> 250<br /><b>Time limit:</b> 1 second(s)<br /><b>Memory limit:</b> 32 MB<br /><b>Test cases:</b> 10</div><div id="problem_body">
+<b>Description:</b><br /><div id="problem_body_text">
+
+<P>
+Its 2100AD. Earth has developed friendly relationships with many alien communities. Inspite of depletion of various natural resources on Earth, this planet still stands on the top of the table as far as the natural resources are concerned. This inevitable asks for jealousy among some of the fellow alien communities.
+</P>
+<P>
+You are the cryptanalyst of one of the most powerful and fully equiped intelligence agency, IIA (Indian Intelligence Agency) on Earth. Your task is to intercept and decode any interplanetary messages, and detect any anti-Earth strategies planned by the fellow intelligent species.
+</P>
+<P>
+The available technology can translate any Alien language. But recently some of the Aliens have learnt some encryption techniques (very basic though). You go through a recently intercepted stream of encrypted data. Putting a slight stress on your advanced human brain, you take no time to realise that,
+<BR />1) The words are simple permutations of the characters of the orginal words, 
+<BR />2) In case there are multiple possibilities of decoding the encrypted word, then the word that comes first in the dictionary is the decoded word.
+</P>
+<P>
+Your task is to quickly write a program and equip your system to detect all such encoded words. To do this you will be given a list of words in the dictionary, and the Encoded word. You have to find the actual word in the dictionary that when Jumbled up gives this encrypted input. Incase of tie return the lexicographically first word. Incase no word in the dictionary matches the input, return the same input string.
+</P>
+</div></div>
+<div id="problem_constraints">
+<b>Formatting/Constraints:</b>
+<ul>
+<li><i>Input:</i>
+<ol>
+<li>
+Line 1 gives the encrypted word eWord consisting of only lower case alphabet a-z. eWord will be between 1-50 characters inclusive in length.
+</li>
+<li>
+Line 2 gives an integer n, the number of dictionary words to follow. n will be between 1-50 inclusive.
+</li>
+<li>
+Line 3 - n+2 gives n dictionary words, 1 on each line consisting of only lowercase alphabet. Each word will be between 1-50 characters in length.
+</li>
+</ol>
+</li>
+<li><i>Output:</i>
+<ol>
+<li>
+Output the Decrypted word on 1 line
+</li>
+</ol>
+</li>
+</ul>
+</div>
+<div id="problem_examples"><b>Examples:</b>
+<ol>
+<li>
+<b>Input:</b> <pre>bumjel
+5
+innovation
+umbjel
+jumble
+aliens
+message</pre>
+<b>Output:</b> <pre>
+jumble
+</pre>
+<b>Analysis:</b> <div class="analysis">
+
+2 words match the input string, 'umbjel' and 'jumble'. 'jumble' comes lexicographically before 'umbjel'.
+</div>
+</li>
+<li>
+<b>Input:</b> <pre>lspime
+5
+sspimel
+sssssss
+difficult
+a
+sample</pre>
+<b>Output:</b> <pre>
+lspime
+</pre>
+<b>Analysis:</b> <div class="analysis">
+
+No word matches the input string.
+</div>
+</li>
+</ol></div>
+</div>

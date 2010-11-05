@@ -1,0 +1,19 @@
+<!DOCTYPE webprojectsession>
+<webprojectsession>
+  <session usePreviewPrefix="0" previewPrefix="" usePersistentBookmarks="0" >
+    <uploadprofiles defaultProfile="@" >
+      <profile remote_host="" remote_port="" remote_path="" remote_protocol="ftp" user="" name="@" />
+    </uploadprofiles>
+    <itemcursorpositions>
+      <item line="93" column="14" url="index.php" />
+      <item line="0" column="0" url="views/statistics.php" />
+      <item line="178" column="31" url="includes/lib.php" />
+      <item line="0" column="0" url="includes/sql.php" />
+    </itemcursorpositions>
+    <treestatus>
+      <openfolder url="includes" />
+      <openfolder url="themes" />
+      <openfolder url="views" />
+    </treestatus>
+  </session>
+</webprojectsession>

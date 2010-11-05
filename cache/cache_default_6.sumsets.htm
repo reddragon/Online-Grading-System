@@ -1,0 +1,61 @@
+                       681088135<script type="text/javascript">var problemVersion = 4;</script><div id="problem_title">Problem: <b>sumsets</b></div><div id="problem"><div id="problem_header"><b>Summary:</b> Decomposition Into Powers<br /><b>Weight:</b> 1000<br /><b>Time limit:</b> 0.5 second(s)<br /><b>Memory limit:</b> 32 MB<br /><b>Test cases:</b> 21</div><div id="problem_body">
+<b>Description:</b><br /><div id="problem_body_text">
+
+<P>It is a well known fact that any positive interger number can be uniquely made by adding the powers of 2, each used at a maximum, once. For example, 7=1+2+4. However, a number can be made in many ways if you can use each of the powers of 2 more than once. For example to make the number 7 you can use any of the following 6 sets:<BR />
+1) 1+1+1+1+1+1+1<BR />
+2) 1+1+1+1+1+2<BR />
+3) 1+1+1+2+2<BR />
+4) 1+1+1+4<BR />
+5) 1+2+2+2<BR />
+6) 1+2+4<BR />
+</P>
+<P>
+Your job is to find exactly how many ways you can make a given number using the powers of 2, any number of times. However, for larger values of number the number of ways goes on increasing very rapidly, hence you are to output only the last 9 digits in the number to prevent overflow.</P>
+
+<P>Note :<BR />
+1) 1+2+4 is same set as 2+1+4 or any possible combinations.<BR />
+2) Use ans%1000000000 at every stage to prevent overflow.</P>
+</div></div>
+<div id="problem_constraints">
+<b>Formatting/Constraints:</b>
+<ul>
+<li><i>Input:</i>
+<ol>
+<li>
+		A number <I>N</I>, which can be any number between 1 and 1000000 inclusive.
+		</li>
+</ol>
+</li>
+<li><i>Output:</i>
+<ol>
+<li>
+		A single number <I>RESULT</I>, specifying the last 9 digits of the number of ways you can construct <I>N</I> using the powers of 2, as illustrated above.
+		</li>
+</ol>
+</li>
+</ul>
+</div>
+<div id="problem_examples"><b>Examples:</b>
+<ol>
+<li>
+<b>Input:</b> <pre>7</pre>
+<b>Output:</b> <pre>6
+</pre>
+<b>Analysis:</b> <div class="analysis">
+
+	The example given in the problem statement.
+	</div>
+</li>
+<li>
+<b>Input:</b> <pre>2</pre>
+<b>Output:</b> <pre>2
+</pre>
+<b>Analysis:</b> <div class="analysis">
+
+	Two itself can be constructed as follows.<BR />
+	1) 1+1<BR />
+	2) 2<BR />
+	</div>
+</li>
+</ol></div>
+</div>

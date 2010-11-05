@@ -1,0 +1,89 @@
+                      2574576927<script type="text/javascript">var problemVersion = 10;</script><div id="problem_title">Problem: <b>tetris</b></div><div id="problem"><div id="problem_header"><b>Summary:</b> Tetris Block Filler<br /><b>Weight:</b> 1000<br /><b>Time limit:</b> 5 second(s)<br /><b>Memory limit:</b> 32 MB<br /><b>Test cases:</b> 31</div><div id="problem_body">
+<b>Description:</b><br /><div id="problem_body_text">
+
+<P>In a modified game of tetris, the board is n units wide. And the rows disappear (giving you some points) only when consecutive m rows are completely filled. For larger values of m, the game becomes very tough. To simplify the game, you can choose any number of, any type of falling blocks available in that level. The available blocks are of maximum 3 units x 3 units. There are k number of blocks. You know the shapes of all the available blocks. Your task is to determine in how many ways can you fit these blocks in a rectangular area of n*m units (completely filled). You can rotate any block by multiple of 90degrees. You need not choose all the available blocks and you may also choose a single block as many times as you want.</P>
+<P>The available blocks are entered as a sequence of 9 characters. First 3 characters correspond to the 1st row, next 3 to the 2nd row, last 3 to the last row. The character is '1' if that position is solid, else it is '0'. For example a simple single unit*unit block is given as "100000000". Always there is atleast one '1' in the 1st row and one '1' in the 1st column. Given n, m and various available pieces in the given format, display the number of ways to fit them in the rectangular region. If the answer is more than or equal to 1000000000, then display only the last 9 digits of the answer.</P>
+<P><B>Note:</B> the block is internally contiguous. A block like 100000001 is not allowed. But a block like 111101111 is allowed. Also the n*m block must be exactly and completely filled. Solid units cannot extend either the width or the height.</P>
+</div></div>
+<div id="problem_constraints">
+<b>Formatting/Constraints:</b>
+<ul>
+<li><i>Input:</i>
+<ol>
+<li>
+Line 1: k n m (k = no. of blocks, m = no. of rows, n = no. of columns)
+</li>
+<li>
+Line 2..k+1: Blocks available formatted a explained above.
+</li>
+<li>
+1 <= n <= 30, 1 <= m <= 5, 1 <= k <= 7
+</li>
+<li>
+There is atleast one '1' in the 1st row and one 1 in the 1st column.
+</li>
+<li>
+All the blocks are unique.
+No 2 available blocks can be derived from one another by rotation by any multiple of 90degrees.
+</li>
+</ol>
+</li>
+<li><i>Output:</i>
+<ol>
+<li>
+Line 1: The required answer (maximum 9 digits). Display answer%1000000000 if answer >= 1000000000.
+</li>
+</ol>
+</li>
+</ul>
+</div>
+<div id="problem_examples"><b>Examples:</b>
+<ol>
+<li>
+<b>Input:</b> <pre>1 4 2
+111100000</pre>
+<b>Output:</b> <pre>1
+</pre>
+<b>Analysis:</b> <div class="analysis">
+
+The 2x4 board can be filled in only 1 way.
+<PRE CLASS="shell_output">
+aaab
+abbb
+</PRE>
+    </div>
+</li>
+<li>
+<b>Input:</b> <pre>1 4 3
+111000000</pre>
+<b>Output:</b> <pre>3
+</pre>
+<b>Analysis:</b> <div class="analysis">
+
+    With only a single block of 3 units wide (1 unit in height), there are 3 ways to fill in a 3x4 board.
+<PRE CLASS="shell_output">
+abbb       bbba       abcd
+accc       ccca       abcd
+addd       ddda       abcd
+(1st Way)  (2nd Way)  (3rd Way)
+</PRE>
+</div>
+</li>
+<li>
+<b>Input:</b> <pre>7 30 5
+100000000
+110000000
+110100000
+111100000
+111001000
+111010010
+110010011</pre>
+<b>Output:</b> <pre>260296331
+</pre>
+<b>Analysis:</b> <div class="analysis">
+
+Beware of time out.
+</div>
+</li>
+</ol></div>
+</div>
